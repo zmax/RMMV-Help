@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>数据库</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>數據庫</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,110 +10,110 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v03">数据库</h1>
+	  <h1 class="main__title--h1 main__title--h1--v03">數據庫</h1>
 	  <ul class="breadcrumb">
 		<li><a href="01.html">RPG Maker MV</a></li>
 			<li>&gt;</li>
-			<li>数据库</li>
+			<li>數據庫</li>
 	  </ul>
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">什么是数据库？</h2>
-		  <p> 数据库将所有游戏成分（地图和地图事件除外）组织到了一起，例如玩家控制的角色，物品，魔法，属性。这些成分可大致分为下面 15 种数据。<br />
+		  <h2 class="main__title--h2">什麼是數據庫？</h2>
+		  <p> 數據庫將所有遊戲成分（地圖和地圖事件除外）組織到了一起，例如玩家控制的角色，物品，魔法，屬性。這些成分可大致分為下面 15 種數據。<br />
 		    <br />
-		    除了[System(系统)]、[Types(属性)]与[Terms(用语)]之外，所有数据均以游戏中登场的单位分别设置。例：“恢复药水”和“钥匙”这类物品，每个物品都在[Items(物品)]中制作数据，设置各自的名称、图像、使用时的效果之类的特征。</p>
+		    除了[System(系統)]、[Types(屬性)]與[Terms(用語)]之外，所有數據均以遊戲中登場的單位分別設置。例：「恢復藥水」和「鑰匙」這類物品，每個物品都在[Items(物品)]中製作數據，設置各自的名稱、圖像、使用時的效果之類的特徵。</p>
 		  <table class="main__table--type01">
 				<tr>
 					<th>Actors(角色)</th>
 					<td>玩家可控制的角色。</td>
 				</tr>
 				<tr>
-					<th>Class(职业)</th>
-					<td>每个角色的特点(特性，成长条件等)。</td>
+					<th>Class(職業)</th>
+					<td>每個角色的特點(特性，成長條件等)。</td>
 				</tr>
 				<tr>
 					<th>Skills(技能)</th>
-					<td>行动与特殊技能(普通攻击，特技，魔法)。</td>
+					<td>行動與特殊技能(普通攻擊，特技，魔法)。</td>
 				</tr>
 				<tr>
 					<th>Item(物品)</th>
-					<td>玩家拥有的物品(药水，钥匙等)。</td>
+					<td>玩家擁有的物品(藥水，鑰匙等)。</td>
 				</tr>
 				<tr>
 					<th>Weapons(武器)</th>
-					<td>角色用于进攻的装备(剑，杖，弓等)。</td>
+					<td>角色用於進攻的裝備(劍，杖，弓等)。</td>
 				</tr>
 				<tr>
 					<th>Armors(防具)</th>
-					<td>角色用于防御的装备(护甲，盾牌，装饰品等)。</td>
+					<td>角色用於防禦的裝備(護甲，盾牌，裝飾品等)。</td>
 				</tr>
 				<tr>
-					<th>Enemies(敌人) </th>
-					<td>会和主角发生战斗的角色。</td>
+					<th>Enemies(敵人) </th>
+					<td>會和主角發生戰鬥的角色。</td>
 				</tr>
 				<tr>
-					<th>Troops(敌群)</th>
-					<td>出现在游戏中的敌人队伍。</td>
+					<th>Troops(敵群)</th>
+					<td>出現在遊戲中的敵人隊伍。</td>
 				</tr>
 				<tr>
-					<th>States(状态) </th>
-					<td>角色，敌人的状态(中毒，战斗不能等)。</td>
+					<th>States(狀態) </th>
+					<td>角色，敵人的狀態(中毒，戰鬥不能等)。</td>
 				</tr>
 				<tr>
-					<th>Animations(动画)</th>
-					<td>一些视觉效果(例如发动技能时)。</td>
+					<th>Animations(動畫)</th>
+					<td>一些視覺效果(例如發動技能時)。</td>
 				</tr>
 				<tr>
-					<th>Tileset(图块组)</th>
-					<td>创建地图时，用于管理图块的数据。</td>
+					<th>Tileset(圖塊組)</th>
+					<td>創建地圖時，用於管理圖塊的數據。</td>
 				</tr>
 				<tr>
 					<th>Common Events(公共事件)</th>
-					<td>处理公共使用的事件。</td>
+					<td>處理公共使用的事件。</td>
 				</tr>
 				<tr>
-					<th>System(系统)</th>
-					<td>游戏的全局基础设定，例如初始设定和音乐。</td>
+					<th>System(系統)</th>
+					<td>遊戲的全局基礎設定，例如初始設定和音樂。</td>
 				</tr>
 				<tr>
-					<th>Types(属性)</th>
-					<td>设定元素，技能，武器，防具，装备的属性。</td>
+					<th>Types(屬性)</th>
+					<td>設定元素，技能，武器，防具，裝備的屬性。</td>
 				</tr>
 				<tr>
-					<th>Terms(用语)</th>
-					<td>一些游戏指令和参数的文字内容。</td>
+					<th>Terms(用語)</th>
+					<td>一些遊戲指令和參數的文字內容。</td>
 				</tr>
 			</table>
 
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">编辑数据库</h2>
-		  <h3 class="main__title--h3--sub">显示编辑窗口 </h3>
-		  <p>数据库的内容要在[Database(数据库)]窗口编辑。要显示数据库窗口，点击工具栏上的[Database(数据库)]按钮(或选择菜单栏中的[Tools(工具)] → [Database(数据库)])。</p>
-		  <h3 class="main__title--h3--sub">组织编辑窗口</h3>
-		  <p>你可以根据数据的类型在[Database(数据库)]窗口的侧边菜单中选择数据。要创建和编辑数据，请点击侧边菜单上的按钮切换屏幕显示的内容。<br />
+		  <h2 class="main__title--h2">編輯數據庫</h2>
+		  <h3 class="main__title--h3--sub">顯示編輯窗口 </h3>
+		  <p>數據庫的內容要在[Database(數據庫)]窗口編輯。要顯示數據庫窗口，點擊工具欄上的[Database(數據庫)]按鈕(或選擇菜單欄中的[Tools(工具)] → [Database(數據庫)])。</p>
+		  <h3 class="main__title--h3--sub">組織編輯窗口</h3>
+		  <p>你可以根據數據的類型在[Database(數據庫)]窗口的側邊菜單中選擇數據。要創建和編輯數據，請點擊側邊菜單上的按鈕切換屏幕顯示的內容。<br />
 		    <br />
-		    当编辑除[System(系统)]，[Types(属性)]，[Terms(用语)]以外的数据时，首先在屏幕左侧的数据列表中选择你要编辑的数据。在这之后，编辑窗口右侧的参数以进一步确定数据的特性。 <br />
+		    當編輯除[System(系統)]，[Types(屬性)]，[Terms(用語)]以外的數據時，首先在屏幕左側的數據列表中選擇你要編輯的數據。在這之後，編輯窗口右側的參數以進一步確定數據的特性。 <br />
   <br />
-		    当按下键盘上的[F4] 或 [F5]键时，你可以在当前的数据列表中切换上一个数据和下一个数据。</p>
-		  <h3 class="main__title--h3--sub">更改数据条目的数量</h3>
-		  <p>技能，物品，武器，敌人，敌群的最大值被设定为 2000，其余类型的数据则是 1000。要改变数据条目的总数，点击数据列表下的[Change Maximum(更改最大值)]按钮，然后输入新的数据条目数量。当减少数据条目的最大值时，超过这个最大值的数据将被删除。</p>
-		  <h3 class="main__title--h3--sub">通过右键菜单控制 </h3>
-		  <p>当你右键点击数据列表中的一项时，会出现一个菜单。你可以进行例如复制数据这样的操作。如下是每一项命令的详细信息。</p>
+		    當按下鍵盤上的[F4] 或 [F5]鍵時，你可以在當前的數據列表中切換上一個數據和下一個數據。</p>
+		  <h3 class="main__title--h3--sub">更改數據條目的數量</h3>
+		  <p>技能，物品，武器，敵人，敵群的最大值被設定為 2000，其餘類型的數據則是 1000。要改變數據條目的總數，點擊數據列表下的[Change Maximum(更改最大值)]按鈕，然後輸入新的數據條目數量。當減少數據條目的最大值時，超過這個最大值的數據將被刪除。</p>
+		  <h3 class="main__title--h3--sub">通過右鍵菜單控制 </h3>
+		  <p>當你右鍵點擊數據列表中的一項時，會出現一個菜單。你可以進行例如複製數據這樣的操作。如下是每一項命令的詳細信息。</p>
 		  <dl class="main__dl--sub">
-			<dt>Copy(复制) </dt>
-				<dd>将选中数据的详细参数信息复制到剪贴板上。<br />
-			    当你按住[Shift]键进行选择时，可以复制多份数据。</dd>
-				<dt>Paste(粘贴) </dt>
-				<dd>将剪贴板上的详细参数信息应用(覆盖)到所选数据上。所选数据之前的参数信息将会被丢失。</dd>
+			<dt>Copy(複製) </dt>
+				<dd>將選中數據的詳細參數信息複製到剪貼板上。<br />
+			    當你按住[Shift]鍵進行選擇時，可以複製多份數據。</dd>
+				<dt>Paste(粘貼) </dt>
+				<dd>將剪貼板上的詳細參數信息應用(覆蓋)到所選數據上。所選數據之前的參數信息將會被丟失。</dd>
 				<dt>Clear(清除)</dt>
-				<dd>删除本数据所有详细参数信息。</dd>
+				<dd>刪除本數據所有詳細參數信息。</dd>
 			</dl>
-		  <h3 class="main__title--h3--sub">有关数据 ID </h3>
-		  <p>在每项数据记录前面显示的数字被称作它的数据 ID(这个数字是独一无二的)。当在事件指令中利用变量指定数据时，ID 就会派上用场。 </p>
-		  <h3 class="main__title--h3--sub">利用备注区域 </h3>
-		  <p>在某些数据中(actors(角色)/classes(职业)/skills(技能)/items(物品)/weapons(武器)/armors(防具)/enemies(敌人)/states(状态)/tilesets(图块组))，有一处[Note(备注)]区域。在制作游戏时你可以随便在这里写下备注。和前面一样，这不会影响游戏，在一些插件中，你可以利用备注来定义额外的信息。</p>
+		  <h3 class="main__title--h3--sub">有關數據 ID </h3>
+		  <p>在每項數據記錄前面顯示的數字被稱作它的數據 ID(這個數字是獨一無二的)。當在事件指令中利用變量指定數據時，ID 就會派上用場。 </p>
+		  <h3 class="main__title--h3--sub">利用備註區域 </h3>
+		  <p>在某些數據中(actors(角色)/classes(職業)/skills(技能)/items(物品)/weapons(武器)/armors(防具)/enemies(敵人)/states(狀態)/tilesets(圖塊組))，有一處[Note(備註)]區域。在製作遊戲時你可以隨便在這裡寫下備註。和前面一樣，這不會影響遊戲，在一些插件中，你可以利用備註來定義額外的信息。</p>
 		</div><!-- /main__section -->
 
 

@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>事件创建和控制</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>事件創建和控制</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,78 +10,78 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v04">地图事件创建和控制</h1>
+	  <h1 class="main__title--h1 main__title--h1--v04">地圖事件創建和控制</h1>
 	  <ul class="breadcrumb">
 	    <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
 		  <li><a href="01_09.html">事件</a></li>
 	    <li>&gt;</li>
-	    <li>地图事件创建和控制</li>
+	    <li>地圖事件創建和控制</li>
 	  </ul>
 
 		<div class="main__section">
-		  <h2 class="main__title--h2" id="p01">地图事件创建和控制</h2>
-		  <h3 class="main__title--h3--sub">切换到编辑模式</h3>
+		  <h2 class="main__title--h2" id="p01">地圖事件創建和控制</h2>
+		  <h3 class="main__title--h3--sub">切換到編輯模式</h3>
 		  <p>
-        为了创建和编辑地图事件，首先通过点击主窗口工具栏中的[事件](Events)按钮切换到事件编辑模式（菜单栏中使用[Mode]（模式） -> [Events]（事件）也可以切换）
+        為了創建和編輯地圖事件，首先通過點擊主窗口工具欄中的[事件](Events)按鈕切換到事件編輯模式（菜單欄中使用[Mode]（模式） -> [Events]（事件）也可以切換）
       </p>
-		  <h3 class="main__title--h3--sub">创建一个新的地图事件 </h3>
-        要创建新地图事件，先在地图上双击你需要放置事件的地方。然后在弹出的[Event Editor](事件编辑器)中编辑你的设定，按下[OK]按钮确定。要获得更多关于设置参数的帮助，请查看[<a href="01_09_03.html">地图事件设置</a>].
+		  <h3 class="main__title--h3--sub">創建一個新的地圖事件 </h3>
+        要創建新地圖事件，先在地圖上雙擊你需要放置事件的地方。然後在彈出的[Event Editor](事件編輯器)中編輯你的設定，按下[OK]按鈕確定。要獲得更多關於設置參數的幫助，請查看[<a href="01_09_03.html">地圖事件設置</a>].
       </p>
-		  <h3 class="main__title--h3--sub">再编辑和移动</h3>
+		  <h3 class="main__title--h3--sub">再編輯和移動</h3>
 		  <p>
-        当你放置一个地图事件的时候，一个图标将会在你事件的位置显示（你第一个事件页选择的图像会默认被使用）。双击这个图像，会再次打开[Event Editor]（事件编辑器）窗口，这里你可以再次编辑事件设置。此时，你也可以通过拖动图标来移动你的事件位置。
+        當你放置一個地圖事件的時候，一個圖標將會在你事件的位置顯示（你第一個事件頁選擇的圖像會默認被使用）。雙擊這個圖像，會再次打開[Event Editor]（事件編輯器）窗口，這裡你可以再次編輯事件設置。此時，你也可以通過拖動圖標來移動你的事件位置。
       </p>
-		  <h3 class="main__title--h3--sub"> 通过上下文菜单控制 </h3>
+		  <h3 class="main__title--h3--sub"> 通過上下文菜單控制 </h3>
 		  <p>
-        当你在事件编辑模式右击地图的时候，你可以复制或者删除已经放置的事件。上下文菜单有如下功能。
+        當你在事件編輯模式右擊地圖的時候，你可以複製或者刪除已經放置的事件。上下文菜單有如下功能。
       </p>
 		  <dl class="main__dl--sub">
-			  <dt>Edit（编辑） (当图块没有事件的时候，这里是“New”，新建事件) </dt>
-				<dd>打开事件编辑器窗口</dd>
+			  <dt>Edit（編輯） (當圖塊沒有事件的時候，這裡是「New」，新建事件) </dt>
+				<dd>打開事件編輯器窗口</dd>
         <dt>Cut （剪切）</dt>
-				<dd>复制当前事件到剪贴板并删除当前事件</dd>
-				<dt>Copy （复制）</dt>
-				<dd>复制你右击的地图事件</dd>
-				<dt>Paste （粘贴）</dt>
-				<dd>粘贴剪贴板的地图时间到你右击的位置</dd>
-				<dt>Delete （删除）</dt>
-				<dd>删除你右击的地图事件</dd>
-				<dt>Quick Event Creation （快速创建事件）</dt>
-				<dd>使用默认配置创建四个类型的事件（稍后会提到）</dd>
-				<dt>Set Starting Position（设置初始点） </dt>
+				<dd>複製當前事件到剪貼板並刪除當前事件</dd>
+				<dt>Copy （複製）</dt>
+				<dd>複製你右擊的地圖事件</dd>
+				<dt>Paste （粘貼）</dt>
+				<dd>粘貼剪貼板的地圖時間到你右擊的位置</dd>
+				<dt>Delete （刪除）</dt>
+				<dd>刪除你右擊的地圖事件</dd>
+				<dt>Quick Event Creation （快速創建事件）</dt>
+				<dd>使用默認配置創建四個類型的事件（稍後會提到）</dd>
+				<dt>Set Starting Position（設置初始點） </dt>
 				<dd>
-          设定玩家和交通工具的起始点。起始点将会被蓝色框标识。
+          設定玩家和交通工具的起始點。起始點將會被藍色框標識。
           <br />
-			    *事件图标使用白色框
+			    *事件圖標使用白色框
         </dd>
 			</dl>
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-		  <h2 class="main__title--h2" id="p02">快速事件创建</h2>
+		  <h2 class="main__title--h2" id="p02">快速事件創建</h2>
 		  <p>
-        通过使用上下文菜单中的[Quick Event Creation](快速事件创建)，你可以创建四种传统RPG中常用的事件类型（使用默认设置）：[Transfer]（场所移动）, [Door](门), [Treasure]（宝物）, [Inn]（旅馆）
+        通過使用上下文菜單中的[Quick Event Creation](快速事件創建)，你可以創建四種傳統RPG中常用的事件類型（使用默認設置）：[Transfer]（場所移動）, [Door](門), [Treasure]（寶物）, [Inn]（旅館）
         <br />
 		    <br />
-        就像其他事件一样，使用“快速事件创建”创建的事件一样可以编辑，复制其的参数和进行其他可以对标准事件进行的操作。
+        就像其他事件一樣，使用「快速事件創建」創建的事件一樣可以編輯，複製其的參數和進行其他可以對標準事件進行的操作。
       </p>
 		  <dl class="main__dl--sub">
-			<dt>Transfer（场所移动） </dt>
+			<dt>Transfer（場所移動） </dt>
 				<dd>
-          在地图上的指定位置创建一个不可见的事件，将玩家传送到指定位置。请在楼梯或者入口这种地方使用这个事件。在[Location](位置)和[Direction]（方向）参数中指定玩家被传送的目的地和玩家的朝向。
+          在地圖上的指定位置創建一個不可見的事件，將玩家傳送到指定位置。請在樓梯或者入口這種地方使用這個事件。在[Location](位置)和[Direction]（方向）參數中指定玩家被傳送的目的地和玩家的朝向。
         </dd>
-				<dt>Door（门）</dt>
+				<dt>Door（門）</dt>
 				<dd>
-          创建包含一张图像的事件，它会将玩家传送到指定位置。使用[Image]（图像）字段指定显示的图像，用[Location]（位置）字段指定玩家被传送到的位置。
+          創建包含一張圖像的事件，它會將玩家傳送到指定位置。使用[Image]（圖像）字段指定顯示的圖像，用[Location]（位置）字段指定玩家被傳送到的位置。
         </dd>
-				<dt>Treasure（宝物） </dt>
+				<dt>Treasure（寶物） </dt>
 				<dd>
-          创建一个可以在玩家第一次打开时从宝箱获得物品的事件。使用[Image]（图像）字段指定显示的图像，通过[Content]（执行内容）字段指定玩家能获得什么样的物品（金币/物品/武器/防具）
+          創建一個可以在玩家第一次打開時從寶箱獲得物品的事件。使用[Image]（圖像）字段指定顯示的圖像，通過[Content]（執行內容）字段指定玩家能獲得什麼樣的物品（金幣/物品/武器/防具）
         </dd>
-				<dt>Inn（旅馆）</dt>
+				<dt>Inn（旅館）</dt>
 				<dd>
-          创建一个可以让你的队伍完成回复的事件，使用[Image]（图像）字段指定显示的图像， 使用[Price]（价格）字段指定回复的价格。
+          創建一個可以讓你的隊伍完成回復的事件，使用[Image]（圖像）字段指定顯示的圖像， 使用[Price]（價格）字段指定回復的價格。
         </dd>
 			</dl>
 		</div><!-- /main__section -->

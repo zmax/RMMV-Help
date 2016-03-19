@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>地图</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>地圖</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,48 +10,48 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v02">地图</h1>
+	  <h1 class="main__title--h1 main__title--h1--v02">地圖</h1>
 	  <ul class="breadcrumb">
 	    <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
-		  <li>地图</li>
+		  <li>地圖</li>
 		</ul>
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">什么是地图？</h2>
-		  <p> 地图是用来表示你游戏的背景和环境的数据。当玩游戏时，地图会随着玩家所到区域而显示出来。<br />
+		  <h2 class="main__title--h2">什麼是地圖？</h2>
+		  <p> 地圖是用來表示你遊戲的背景和環境的數據。當玩遊戲時，地圖會隨著玩家所到區域而顯示出來。<br />
 		    <br />
-		    设计地图，就是将一些部分拼接起来，这些部分叫做“图块”。</p>
+		    設計地圖，就是將一些部分拼接起來，這些部分叫做「圖塊」。</p>
 		  <div class="al-c mb20px">
 				<img src="../inc/img/01_07_img01.png" height="940" width="1383" alt="" />
 			</div>
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">地图基本说明</h2>
-		  <h3 class="main__title--h3--sub">图块的作用 </h3>
-		  <p>图块是决定地图外观的图像，并且你可以设置哪些图块玩家可以穿过，哪些不可以。<br />
+		  <h2 class="main__title--h2">地圖基本說明</h2>
+		  <h3 class="main__title--h3--sub">圖塊的作用 </h3>
+		  <p>圖塊是決定地圖外觀的圖像，並且你可以設置哪些圖塊玩家可以穿過，哪些不可以。<br />
 		    <br />
-		    在一张地图当中，许多块图块被组织到一起包装成一整块数据，形成所谓的“图块组”。它是设计地图轮廓的基础。通过改变你所使用的图块组，你可以即时更改地图的外观。要编辑图块组的数据内容，你可以使用[<a href="01_08_10.html">数据库</a>]。</p>
-		  <h3 class="main__title--h3--sub">图块分类 </h3>
-		  <p>在一个图块组中，总共可以包含 5 种不同类型的图块，它们的编号为 A ~ E。A 是最低的一层，它代表地形和地面；B ~ E 则是较高层次的图块，它们用于表示地表上的元素，例如树木，灌木丛，或者标志牌。<br />
+		    在一張地圖當中，許多塊圖塊被組織到一起包裝成一整塊數據，形成所謂的「圖塊組」。它是設計地圖輪廓的基礎。通過改變你所使用的圖塊組，你可以即時更改地圖的外觀。要編輯圖塊組的數據內容，你可以使用[<a href="01_08_10.html">數據庫</a>]。</p>
+		  <h3 class="main__title--h3--sub">圖塊分類 </h3>
+		  <p>在一個圖塊組中，總共可以包含 5 種不同類型的圖塊，它們的編號為 A ~ E。A 是最低的一層，它代表地形和地面；B ~ E 則是較高層次的圖塊，它們用於表示地表上的元素，例如樹木，灌木叢，或者標誌牌。<br />
 		    <br />
-		    你可以将上层图块和下层图块放在地图的同一个位置上。使用这样的两层设计，你可以创造极其精致复杂的地图。<br />
+		    你可以將上層圖塊和下層圖塊放在地圖的同一個位置上。使用這樣的兩層設計，你可以創造極其精緻複雜的地圖。<br />
   <br />
-		    作为标准，表示海洋，草地，地板，墙体的图块是底层图块，而上层图块被用来装饰底层图块的内容。<br />
-		    此外，你还可以将两种上层的图块重叠在一起。因此在这个版本的 RPG Maker 中，地图会变得更加多样。</p>
+		    作為標準，表示海洋，草地，地板，牆體的圖塊是底層圖塊，而上層圖塊被用來裝飾底層圖塊的內容。<br />
+		    此外，你還可以將兩種上層的圖塊重疊在一起。因此在這個版本的 RPG Maker 中，地圖會變得更加多樣。</p>
 		  &nbsp;
 		  <div class="al-c mb20px">
 			  <img src="../inc/img/01_07_img02.png" height="230" width="958" alt="" />
 			</div>
-		  <h3 class="main__title--h3--sub">地图尺寸和显示方法 </h3>
-		  <p>地图的尺寸以图块为单位，宽度和高度可分别设置为 0 ~ 256 个图块。<br />
+		  <h3 class="main__title--h3--sub">地圖尺寸和顯示方法 </h3>
+		  <p>地圖的尺寸以圖塊為單位，寬度和高度可分別設置為 0 ~ 256 個圖塊。<br />
 		    <br />
-		    当游戏运行时，屏幕中可看到的图块数量为 17×13 。在大于此尺寸的地图中，显示区域会自动以主角为中心(卷动处理)。此外，通过连接地图的边缘，你可以做出循环地图的效果，就好像玩家身处一个星球上一样(循环处理)。</p>
-		  <h3 class="main__title--h3--sub">地图定位 </h3>
-		  <p>地图上图块的位置代表着[地图坐标]。地图的原点位于左上角，坐标为(0,0)，X 坐标轴向右延伸，Y 坐标轴向下延伸。例如，在一个尺寸为 100×100 的地图中，右下角的坐标为(99,99)。当前编辑的图块坐标会显示在底部的状态栏上。<br />
+		    當遊戲運行時，屏幕中可看到的圖塊數量為 17×13 。在大於此尺寸的地圖中，顯示區域會自動以主角為中心(捲動處理)。此外，通過連接地圖的邊緣，你可以做出循環地圖的效果，就好像玩家身處一個星球上一樣(循環處理)。</p>
+		  <h3 class="main__title--h3--sub">地圖定位 </h3>
+		  <p>地圖上圖塊的位置代表著[地圖坐標]。地圖的原點位於左上角，坐標為(0,0)，X 坐標軸向右延伸，Y 坐標軸向下延伸。例如，在一個尺寸為 100×100 的地圖中，右下角的坐標為(99,99)。當前編輯的圖塊坐標會顯示在底部的狀態欄上。<br />
 		    <br />
-		    地图坐标可被用于一些事件指令当中，这些事件指令监测当前队伍的所在位置或者是以变量指定的移动地点。</p>
+		    地圖坐標可被用於一些事件指令當中，這些事件指令監測當前隊伍的所在位置或者是以變量指定的移動地點。</p>
 		</div><!-- /main__section -->
 
 

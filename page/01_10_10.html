@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>画面</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>畫面</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,112 +10,112 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v05">画面</h1>
+	  <h1 class="main__title--h1 main__title--h1--v05">畫面</h1>
 	  <ul class="breadcrumb">
 	    <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
 		  <li><a href="01_10.html">事件指令</a></li>
 		  <li>&gt;</li>
-		  <li>画面</li>
+		  <li>畫面</li>
 	  </ul>
 
 		<div class="main__section" id="p01">
-		  <h2 class="main__title--h2">淡出画面</h2>
+		  <h2 class="main__title--h2">淡出畫面</h2>
 		  <h3 class="main__title--h3--sub">功能</h3>
-		  <p>淡出屏幕（慢慢淡出屏幕变成黑色）。没有需要设置的参数。</p>
+		  <p>淡出屏幕（慢慢淡出屏幕變成黑色）。沒有需要設置的參數。</p>
 		  <h3 class="main__title--h3--sub">Remarks</h3>
 		  <ul class="main__ul">
-		    <li>屏幕将保持淡出直到执行事件指令[淡入画面]为止。</li>
-		    <li>画面持淡后，菜单、消息窗口、战斗指令窗口依旧会显示。</li>
-		    <li>在战斗事件中执行该事件指令的话，除了指令窗口和消息窗口以外会完全变黑，敌人将会变得不可见。</li>
+		    <li>屏幕將保持淡出直到執行事件指令[淡入畫面]為止。</li>
+		    <li>畫面持淡後，菜單、消息窗口、戰鬥指令窗口依舊會顯示。</li>
+		    <li>在戰鬥事件中執行該事件指令的話，除了指令窗口和消息窗口以外會完全變黑，敵人將會變得不可見。</li>
 		  </ul>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p02">
-		  <h2 class="main__title--h2">淡入画面</h2>
+		  <h2 class="main__title--h2">淡入畫面</h2>
 		  <h3 class="main__title--h3--sub">功能</h3>
-		  <p>恢复[淡出画面]中暗转的画面。没有需要设置的参数。</p>
+		  <p>恢復[淡出畫面]中暗轉的畫面。沒有需要設置的參數。</p>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p03">
-		  <h2 class="main__title--h2">更改画面色调</h2>
+		  <h2 class="main__title--h2">更改畫面色調</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_10_img03.png" height="353" width="472" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-		  <p>改变整个屏幕的色调。图片和消息窗口的色调不会改变。</p>
+		  <p>改變整個屏幕的色調。圖片和消息窗口的色調不會改變。</p>
 			<h3 class="main__title--h3--sub">Settings</h3>
 			<dl class="main__dl--sub">
-			  <dt>色调</dt>
-				<dd>指定[红][绿][蓝]三种颜色各自加入的成分（0~255）。[灰度]指定了灰度滤镜的强度（0~255）。值越大，整体添加的颜色就越强。点击下方并排的按钮[正常][黑暗][茶色][黄昏][夜晚]，可以应用表现各自色调的规定值（[正常]回到原来的色调）。色调的变化可以在右侧的预览区域中确认。</dd>
-				<dt>持续时间</dt>
-				<dd>指定处理所需要的时间（1~600，单位为帧）。一帧相当于1/60秒。</dd>
+			  <dt>色調</dt>
+				<dd>指定[紅][綠][藍]三種顏色各自加入的成分（0~255）。[灰度]指定了灰度濾鏡的強度（0~255）。值越大，整體添加的顏色就越強。點擊下方並排的按鈕[正常][黑暗][茶色][黃昏][夜晚]，可以應用表現各自色調的規定值（[正常]回到原來的色調）。色調的變化可以在右側的預覽區域中確認。</dd>
+				<dt>持續時間</dt>
+				<dd>指定處理所需要的時間（1~600，單位為幀）。一幀相當於1/60秒。</dd>
 				<dt>等待完成</dt>
-				<dd>启用后，事件处理会暂时停止，直到该事件指令处理完毕后再重新开始。</dd>
+				<dd>啟用後，事件處理會暫時停止，直到該事件指令處理完畢後再重新開始。</dd>
 			</dl>
-			<h3 class="main__title--h3--sub">备注</h3>
+			<h3 class="main__title--h3--sub">備註</h3>
 			<ul class="main__ul">
-			  <li>更改的色调会持续到再次使用该事件指令更改色调时（包括战斗）。</li>
+			  <li>更改的色調會持續到再次使用該事件指令更改色調時（包括戰鬥）。</li>
 		  </ul>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p04">
-		  <h2 class="main__title--h2">闪烁画面</h2>
+		  <h2 class="main__title--h2">閃爍畫面</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_10_img04.png" height="314" width="472" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>一瞬间将整个画面变为指定的颜色，再缓缓恢复原画面。可以体现出闪电的效果。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>一瞬間將整個畫面變為指定的顏色，再緩緩恢復原畫面。可以體現出閃電的效果。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-			  <dt>闪烁颜色</dt>
-				<dd>用[红][绿][蓝]各个颜色的成分比（0~255）指定显示的颜色。指定的颜色可以在右侧预览区域中确认。[强度]指定颜色的不透明度（0~255）。设为0的话，颜色就会完全透明，不会影响显示的画面。</dd>
-				<dt>持续时间</dt>
-				<dd>指定处理所需要的时间（1~600，单位为帧）。一帧相当于1/60秒。</dd>
+			  <dt>閃爍顏色</dt>
+				<dd>用[紅][綠][藍]各個顏色的成分比（0~255）指定顯示的顏色。指定的顏色可以在右側預覽區域中確認。[強度]指定顏色的不透明度（0~255）。設為0的話，顏色就會完全透明，不會影響顯示的畫面。</dd>
+				<dt>持續時間</dt>
+				<dd>指定處理所需要的時間（1~600，單位為幀）。一幀相當於1/60秒。</dd>
 				<dt>等待完成</dt>
-				<dd>启用后，事件处理会暂时停止，直到该事件指令处理完毕后再重新开始。</dd>
+				<dd>啟用後，事件處理會暫時停止，直到該事件指令處理完畢後再重新開始。</dd>
 			</dl>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p05">
-		  <h2 class="main__title--h2">震动画面</h2>
+		  <h2 class="main__title--h2">震動畫面</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_10_img05.png" height="252" width="414" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>左右摇晃整个画面。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>左右搖晃整個畫面。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-			  <dt>震动</dt>
-				<dd>[强度]指定振幅大小（1~9），[速度]指定摇晃的速度（1~9）</dd>
-				<dt>持续时间</dt>
-				<dd>指定处理震动画面所需要的时间（1~600，单位为帧）。一帧相当于1/60秒。</dd>
+			  <dt>震動</dt>
+				<dd>[強度]指定振幅大小（1~9），[速度]指定搖晃的速度（1~9）</dd>
+				<dt>持續時間</dt>
+				<dd>指定處理震動畫面所需要的時間（1~600，單位為幀）。一幀相當於1/60秒。</dd>
 				<dt>等待完成</dt>
-				<dd>启用后，事件处理会暂时停止，直到该事件指令处理完毕后再重新开始。</dd>
+				<dd>啟用後，事件處理會暫時停止，直到該事件指令處理完畢後再重新開始。</dd>
 			</dl>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p06">
-		  <h2 class="main__title--h2">设置天气效果</h2>
+		  <h2 class="main__title--h2">設置天氣效果</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_10_img06.png" height="258" width="414" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>控制表现天气（雨/风/雪）的效果显示。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>控制表現天氣（雨/風/雪）的效果顯示。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-			  <dt>类型</dt>
-				<dd>指定要显示的图像类型。要停止图像的显示则指定[无]。</dd>
-				<dt>强度</dt>
-				<dd>指定图像显示的量（1~9）。</dd>
-				<dt>持续时间</dt>
-				<dd>指定处理天气变化所需要的时间（1~600，单位为帧）。一帧相当于1/60秒。</dd>
+			  <dt>類型</dt>
+				<dd>指定要顯示的圖像類型。要停止圖像的顯示則指定[無]。</dd>
+				<dt>強度</dt>
+				<dd>指定圖像顯示的量（1~9）。</dd>
+				<dt>持續時間</dt>
+				<dd>指定處理天氣變化所需要的時間（1~600，單位為幀）。一幀相當於1/60秒。</dd>
 				<dt>等待完成</dt>
-				<dd>启用后，事件处理会暂时停止，直到该事件指令处理完毕后再重新开始。</dd>
+				<dd>啟用後，事件處理會暫時停止，直到該事件指令處理完畢後再重新開始。</dd>
 			</dl>
-			<h3 class="main__title--h3--sub">说明</h3>
+			<h3 class="main__title--h3--sub">說明</h3>
 			<ul class="main__ul">
-			  <li>不能用于战斗事件。</li>
+			  <li>不能用於戰鬥事件。</li>
 		  </ul>
 		</div><!-- /main__section -->
 	</div><!-- /main -->

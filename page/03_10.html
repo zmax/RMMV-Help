@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Sprite 类</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Sprite 類</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -11,27 +11,27 @@
 
 	<div class="main">
 
-		<h1 class="main__title--h1 main__title--h1--v07">Sprite 类</h1>
+		<h1 class="main__title--h1 main__title--h1--v07">Sprite 類</h1>
 		<ul class="breadcrumb">
-			<li>JS 库</li>
+			<li>JS 庫</li>
 			<li>&gt;</li>
-			<li>Sprite 类</li>
+			<li>Sprite 類</li>
 		</ul>
-		<p>在游戏画面中进行渲染的基本对象。</p>
+		<p>在遊戲畫面中進行渲染的基本對象。</p>
 		<div class="main__section">
-			<h2 class="main__title--h2">构造函数</h2>
+			<h2 class="main__title--h2">構造函數</h2>
 <pre class="main__pre--code">
 Sprite ( bitmap )
 </pre>
 			<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">bitmap</code>
 						<span class="type">Bitmap</span>
 						<div class="param-description">
-							<p>sprite（精灵） 显示的图片</p>
+							<p>sprite（精靈） 顯示的圖片</p>
 						</div>
 					</li>
 				</ul>
@@ -56,7 +56,7 @@ Sprite ( bitmap )
 				<li><a href="#m11">update</a></li>
 			</ul>
 
-			<b>属性</b>
+			<b>屬性</b>
 			<ul class="main__ul--inline">
 				<li><a href="#p01">anchor</a></li>
 				<li><a href="#p02">bitmap</a></li>
@@ -85,7 +85,7 @@ addChild ( child ) <span class="pre__type">Object</span>
 </pre>
 				<p class="mb10px">向容器中添加子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">child</code>
@@ -107,7 +107,7 @@ addChildAt ( child  index ) <span class="pre__type">Object</span>
 </pre>
 				<p class="mb10px">在容器指定索引的位置添加子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">child</code>
@@ -134,11 +134,11 @@ addChildAt ( child  index ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 getBlendColor () <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">获取 sprite（精灵） 的混合颜色。</p>
+				<p class="mb10px">獲取 sprite（精靈） 的混合顏色。</p>
 				<div class="params">
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Array:</span><br />
-					混合颜色（[r, g, b, a]）</p>
+					混合顏色（[r, g, b, a]）</p>
 				</div>
 			</div><!-- /div -->
 
@@ -146,11 +146,11 @@ getBlendColor () <span class="pre__type">Array</span>
 <pre class="main__pre--code">
 getColorTone () <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">获取 sprite（精灵） 的色调。</p>
+				<p class="mb10px">獲取 sprite（精靈） 的色調。</p>
 				<div class="params">
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Array:</span><br />
-					色调（[r, g, b, gray]）</p>
+					色調（[r, g, b, gray]）</p>
 				</div>
 			</div><!-- /div -->
 
@@ -158,22 +158,22 @@ getColorTone () <span class="pre__type">Array</span>
 <pre class="main__pre--code">
 move ( x , y )
 </pre>
-				<p class="mb10px">直接设置 sprite（精灵） 的 X 坐标和 Y 坐标。</p>
+				<p class="mb10px">直接設置 sprite（精靈） 的 X 坐標和 Y 坐標。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>sprite（精灵） 的 X 坐标</p>
+								<p>sprite（精靈） 的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>sprite（精灵） 的 Y 坐标</p>
+								<p>sprite（精靈） 的 Y 坐標</p>
 							</div>
 						</li>
 					</ul>
@@ -184,9 +184,9 @@ move ( x , y )
 <pre class="main__pre--code">
 removeChild ( child ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">从容器中移除子元素。</p>
+				<p class="mb10px">從容器中移除子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">child</code>
@@ -208,7 +208,7 @@ removeChildAt ( index ) <span class="pre__type">Object</span>
 </pre>
 				<p class="mb10px">移除容器指定索引位置的子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">index</code>
@@ -228,15 +228,15 @@ removeChildAt ( index ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 setBlendColor ( color )
 </pre>
-				<p class="mb10px">设置 sprite（精灵） 的混合颜色。</p>
+				<p class="mb10px">設置 sprite（精靈） 的混合顏色。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">color</code>
 							<span class="type">Array</span>
 							<div class="param-description">
-								<p>混合颜色（[r, g, b, a]）</p>
+								<p>混合顏色（[r, g, b, a]）</p>
 							</div>
 						</li>
 					</ul>
@@ -247,15 +247,15 @@ setBlendColor ( color )
 <pre class="main__pre--code">
 setColorTone ( tone )
 </pre>
-				<p class="mb10px">设置 sprite（精灵） 的色调。</p>
+				<p class="mb10px">設置 sprite（精靈） 的色調。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">tone</code>
 							<span class="type">Array</span>
 							<div class="param-description">
-								<p>色调（[r, g, b, gray]）</p>
+								<p>色調（[r, g, b, gray]）</p>
 							</div>
 						</li>
 					</ul>
@@ -266,36 +266,36 @@ setColorTone ( tone )
 <pre class="main__pre--code">
 setFrame ( x , y , width , height )
 </pre>
-				<p class="mb10px">设置 sprite（精灵） 所显示 bitmap（位图） 的矩形区域。</p>
+				<p class="mb10px">設置 sprite（精靈） 所顯示 bitmap（位圖） 的矩形區域。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的 X 坐标</p>
+								<p>矩形區域的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的 Y 坐标</p>
+								<p>矩形區域的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的宽度</p>
+								<p>矩形區域的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的高度</p>
+								<p>矩形區域的高度</p>
 							</div>
 						</li>
 					</ul>
@@ -306,111 +306,111 @@ setFrame ( x , y , width , height )
 <pre class="main__pre--code">
 update ()
 </pre>
-				<p class="mb10px">在每一帧中刷新 sprite（精灵）。</p>
+				<p class="mb10px">在每一幀中刷新 sprite（精靈）。</p>
 			</div><!-- /div -->
 
 		</div><!-- /main__section -->
 
 
 		<div class="main__section">
-			<h2 class="main__title--h2">属性</h2>
+			<h2 class="main__title--h2">屬性</h2>
 
 			<div id="p01" class="main__subsection">
 <pre class="main__pre--code">
 anchor <span class="pre__type">Point</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的原点坐标（(0,0) ~ (1,1)）。</p>
+				<p class="mb10px">sprite（精靈） 的原點坐標（(0,0) ~ (1,1)）。</p>
 			</div><!-- /div -->
 
 			<div id="p02" class="main__subsection">
 <pre class="main__pre--code">
 bitmap <span class="pre__type">Bitmap</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 所显示的图片。</p>
+				<p class="mb10px">sprite（精靈） 所顯示的圖片。</p>
 			</div><!-- /div -->
 
 			<div id="p03" class="main__subsection">
 <pre class="main__pre--code">
 blendMode <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 所使用的混合模式。</p>
+				<p class="mb10px">sprite（精靈） 所使用的混合模式。</p>
 			</div><!-- /div -->
 
 			<div id="p04" class="main__subsection">
 <pre class="main__pre--code">
 children <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">[只读] sprite（精灵） 的子元素数组。</p>
+				<p class="mb10px">[只讀] sprite（精靈） 的子元素數組。</p>
 			</div><!-- /div -->
 
 			<div id="p05" class="main__subsection">
 <pre class="main__pre--code">
 filters <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">设置 sprite（精灵） 所使用的滤镜。</p>
+				<p class="mb10px">設置 sprite（精靈） 所使用的濾鏡。</p>
 			</div><!-- /div -->
 
 			<div id="p06" class="main__subsection">
 <pre class="main__pre--code">
 height <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的高度（不考虑缩放）。</p>
+				<p class="mb10px">sprite（精靈） 的高度（不考慮縮放）。</p>
 			</div><!-- /div -->
 
 			<div id="p07" class="main__subsection">
 <pre class="main__pre--code">
 opacity <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的不透明度（0 ~ 255）。</p>
+				<p class="mb10px">sprite（精靈） 的不透明度（0 ~ 255）。</p>
 			</div><!-- /div -->
 
 			<div id="p08" class="main__subsection">
 <pre class="main__pre--code">
 parent <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">[只读]包含此 sprite（精灵） 的父容器。</p>
+				<p class="mb10px">[只讀]包含此 sprite（精靈） 的父容器。</p>
 			</div><!-- /div -->
 
 			<div id="p09" class="main__subsection">
 <pre class="main__pre--code">
 rotation <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的旋转角度（弧度）。</p>
+				<p class="mb10px">sprite（精靈） 的旋轉角度（弧度）。</p>
 			</div><!-- /div -->
 
 			<div id="p10" class="main__subsection">
 <pre class="main__pre--code">
 scale <span class="pre__type">Point</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的缩放比例。</p>
+				<p class="mb10px">sprite（精靈） 的縮放比例。</p>
 			</div><!-- /div -->
 
 			<div id="p11" class="main__subsection">
 <pre class="main__pre--code">
 visible <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的可见性。</p>
+				<p class="mb10px">sprite（精靈） 的可見性。</p>
 			</div><!-- /div -->
 
 			<div id="p12" class="main__subsection">
 <pre class="main__pre--code">
 width <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的宽度（不考虑缩放）。</p>
+				<p class="mb10px">sprite（精靈） 的寬度（不考慮縮放）。</p>
 			</div><!-- /div -->
 
 			<div id="p13" class="main__subsection">
 <pre class="main__pre--code">
 x <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的 X 坐标。</p>
+				<p class="mb10px">sprite（精靈） 的 X 坐標。</p>
 			</div><!-- /div -->
 
 			<div id="p14" class="main__subsection">
 <pre class="main__pre--code">
 y <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">sprite（精灵） 的 Y 坐标。</p>
+				<p class="mb10px">sprite（精靈） 的 Y 坐標。</p>
 			</div><!-- /div -->
 
 		</div><!-- /main__section -->

@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>敌人设置</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>敵人設置</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,81 +10,81 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v03">敌人设置</h1>
+	  <h1 class="main__title--h1 main__title--h1--v03">敵人設置</h1>
 	  <ul class="breadcrumb">
 	    <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
-		  <li><a href="01_08.html">数据库</a></li>
+		  <li><a href="01_08.html">數據庫</a></li>
 		  <li>&gt;</li>
-		  <li>敌人设置</li>
+		  <li>敵人設置</li>
 	  </ul>
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">数据的作用</h2>
-		  <p> 表示和角色发生战斗的敌人的数据。除了那些和主角相同的特性之外，你需要额外设置战斗中敌人采取的行动模式。</p>
+		  <h2 class="main__title--h2">數據的作用</h2>
+		  <p> 表示和角色發生戰鬥的敵人的數據。除了那些和主角相同的特性之外，你需要額外設置戰鬥中敵人採取的行動模式。</p>
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">参数详细信息</h2>
+		  <h2 class="main__title--h2">參數詳細信息</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_08_06_img01.png" width="769" height="631" alt="" />
 			</div>
-		  <h3 class="main__title--h3"> 常规设置 </h3>
-		  <h3 class="main__title--h3--sub"> Name(名称) </h3>
-		  <p>敌人的名称。如果名称太长，那么在游戏画面中可能会显示不全。</p>
-		  <h3 class="main__title--h3--sub"> Image(战斗图) </h3>
-		  <p>游戏中显示的敌人图像。双击图像后，在打开的[Select an Image(选择图片)]的窗口中选择一张图片。选择图像时，你可以通过移动[Hue(色相)]滑块来改变图像的色相。如果设置为[None(无)]，则不会有图片显示。</p>
-		  <h3 class="main__title--h3--sub"> Max HP/Max MP/Attack/Defense/M.Attack/M.Defense/Agility/Luck(最大 HP/最大 MP/攻击力/防御/魔法攻击力/魔法防御/速度/幸运) </h3>
-		  <p>战斗开始时敌人的能力值。[Max HP(最大 HP)]的范围为 1 ~ 999999，[Max MP(最大 MP)]的范围为 0 ~ 9999，其他能力值的范围为 1 ~ 999。</p>
-		  <h3 class="main__title--h3"> Rewards(奖励) </h3>
-		  <p>战斗获胜后角色获得的 EXP (1 ~ 9999999) 和获得金钱(0 ~ 9999999)数量。</p>
+		  <h3 class="main__title--h3"> 常規設置 </h3>
+		  <h3 class="main__title--h3--sub"> Name(名稱) </h3>
+		  <p>敵人的名稱。如果名稱太長，那麼在遊戲畫面中可能會顯示不全。</p>
+		  <h3 class="main__title--h3--sub"> Image(戰鬥圖) </h3>
+		  <p>遊戲中顯示的敵人圖像。雙擊圖像後，在打開的[Select an Image(選擇圖片)]的窗口中選擇一張圖片。選擇圖像時，你可以通過移動[Hue(色相)]滑塊來改變圖像的色相。如果設置為[None(無)]，則不會有圖片顯示。</p>
+		  <h3 class="main__title--h3--sub"> Max HP/Max MP/Attack/Defense/M.Attack/M.Defense/Agility/Luck(最大 HP/最大 MP/攻擊力/防禦/魔法攻擊力/魔法防禦/速度/幸運) </h3>
+		  <p>戰鬥開始時敵人的能力值。[Max HP(最大 HP)]的範圍為 1 ~ 999999，[Max MP(最大 MP)]的範圍為 0 ~ 9999，其他能力值的範圍為 1 ~ 999。</p>
+		  <h3 class="main__title--h3"> Rewards(獎勵) </h3>
+		  <p>戰鬥獲勝後角色獲得的 EXP (1 ~ 9999999) 和獲得金錢(0 ~ 9999999)數量。</p>
 		  <h3 class="main__title--h3"> Drop Items(掉落物品) </h3>
-		  <p>战斗获胜后队伍获得的物品(包括武器和防具)。双击区域后可以打开设置窗口，在里面你可以指定掉落的物品和掉落几率（在[Probability(概率)]中设置，范围为 1/1 ~ 1/1000）。</p>
-		  <h3 class="main__title--h3"> Action Patterns(行动模式) </h3>
+		  <p>戰鬥獲勝後隊伍獲得的物品(包括武器和防具)。雙擊區域後可以打開設置窗口，在裡面你可以指定掉落的物品和掉落幾率（在[Probability(概率)]中設置，範圍為 1/1 ~ 1/1000）。</p>
+		  <h3 class="main__title--h3"> Action Patterns(行動模式) </h3>
 		  <div class="al-c mb20px">
 				<img src="../inc/img/01_08_06_img02.png" width="384" height="432" alt="" />
 			</div>
 			<dl class="main__dl">
 				<dt>Turn(回合)</dt>
-				<dd>战斗经过的回合可作为行动条件。回合的定义格式为[A + B * X]，其中 A 为距离战斗开始的回合数，B 为相邻两回合之间的回合数。如果将 A 设置为 2，B 设置为 3，则从第二回合开始，每隔 3 回合就满足一次条件(第 5 回合，第 8 回合...)。 </dd>
+				<dd>戰鬥經過的回合可作為行動條件。回合的定義格式為[A + B * X]，其中 A 為距離戰鬥開始的回合數，B 為相鄰兩回合之間的回合數。如果將 A 設置為 2，B 設置為 3，則從第二回合開始，每隔 3 回合就滿足一次條件(第 5 回合，第 8 回合...)。 </dd>
 				<dt>HP </dt>
-				<dd>敌人当前 HP 可作为行动的条件。设置时请指定当前 HP 所占最大 HP 的百分比(0 ~ 100%)。当敌人的 HP 在指定范围内时，条件视为满足。</dd>
+				<dd>敵人當前 HP 可作為行動的條件。設置時請指定當前 HP 所佔最大 HP 的百分比(0 ~ 100%)。當敵人的 HP 在指定範圍內時，條件視為滿足。</dd>
 				<dt>MP </dt>
-				<dd>敌人当前 MP 可作为行动的条件。设置时请指定当前 MP 所占最大 MP 的百分比(0 ~ 100%)。当敌人的 MP 在指定范围内时，条件视为满足。</dd>
-				<dt>State(状态) </dt>
-				<dd>战斗者持有指定状态可作为行动的条件。</dd>
-				<dt>Party Level(队伍等级) </dt>
-				<dd>队伍成员的等级可作为行动的条件。当队伍中等级最高者在指定等级以上（或相等）时，条件视为满足。</dd>
-				<dt>Switch(开关) </dt>
-				<dd>指定的开关可作为行动的条件。当指定开关打开时，条件视为满足。</dd>
+				<dd>敵人當前 MP 可作為行動的條件。設置時請指定當前 MP 所佔最大 MP 的百分比(0 ~ 100%)。當敵人的 MP 在指定範圍內時，條件視為滿足。</dd>
+				<dt>State(狀態) </dt>
+				<dd>戰鬥者持有指定狀態可作為行動的條件。</dd>
+				<dt>Party Level(隊伍等級) </dt>
+				<dd>隊伍成員的等級可作為行動的條件。當隊伍中等級最高者在指定等級以上（或相等）時，條件視為滿足。</dd>
+				<dt>Switch(開關) </dt>
+				<dd>指定的開關可作為行動的條件。當指定開關打開時，條件視為滿足。</dd>
 			</dl>
 		  <h3 class="main__title--h3"> Traits(特性) </h3>
-		  <p>敌人的特性。双击每行的设置区域，然后在打开的窗口里面编辑特性的细节。详情请参考[<a href="01_08_15.html">如何设置特性</a>]。</p>
-		  <h3 class="main__title--h3" id="renew01"> Note(备注) </h3>
-				<p>在制作游戏过程中，[Note（备注）]部分可以用来做备注。<br />
-					右键点击可以打开菜单，在其中选择[Plugin Help...（插件帮助）]来显示插件帮助。<br />
+		  <p>敵人的特性。雙擊每行的設置區域，然後在打開的窗口裡面編輯特性的細節。詳情請參考[<a href="01_08_15.html">如何設置特性</a>]。</p>
+		  <h3 class="main__title--h3" id="renew01"> Note(備註) </h3>
+				<p>在製作遊戲過程中，[Note（備註）]部分可以用來做備註。<br />
+					右鍵點擊可以打開菜單，在其中選擇[Plugin Help...（插件幫助）]來顯示插件幫助。<br />
 					<span class="red">（2016.03.01 更新）</span>
 				</p>
 		</div><!-- /main__section -->
 
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">行动模式应用规则</h2>
-		  <p>在[Action Patterns(行动模式)]里面设置的行动当中，战斗中实际采取的行动会服从下面的规则。</p>
+		  <h2 class="main__title--h2">行動模式應用規則</h2>
+		  <p>在[Action Patterns(行動模式)]裡面設置的行動當中，戰鬥中實際採取的行動會服從下面的規則。</p>
 		  <ol class="main__ol">
-		    <li>只有满足条件的行动会被从行动列表里面选择出来。如果没有行动满足执行条件，那么该敌人不会采取任何行动。</li>
-		    <li>在满足条件的行动当中，具有最高 rating（级别）的行动和与其相差两个级别以内的行动可能会被实际采用。</li>
-		    <li>在所有可能的选择中，和最高级别的行动相差 1 ~ 2 个级别的行动，实际采取的概率分别为最高级别行动的 2/3 和 1/3。对于 rating（级别）相同的行动，它们被选中的几率相同。
+		    <li>只有滿足條件的行動會被從行動列表裡面選擇出來。如果沒有行動滿足執行條件，那麼該敵人不會採取任何行動。</li>
+		    <li>在滿足條件的行動當中，具有最高 rating（級別）的行動和與其相差兩個級別以內的行動可能會被實際採用。</li>
+		    <li>在所有可能的選擇中，和最高級別的行動相差 1 ~ 2 個級別的行動，實際採取的概率分別為最高級別行動的 2/3 和 1/3。對於 rating（級別）相同的行動，它們被選中的幾率相同。
 <dl class="main__dl--sub mt10px">
-					<dt>例子 1：行动级别为 [5] 和 [5] </dt>
-					<dd>每个行动的几率为 50%。</dd>
-					<dt>例子 2：行动级别为 [6]，[5]，[4]，[3] </dt>
-					<dd>[6] 为 50%，[5] 为 33.3% (50% 的 2/3)，[4] 为 16.6% (50% 的 1/3)。[3] 不会成为备选行动。</dd>
-					<dt>例子 3：行动级别为 [5]，[3] 和 [3] </dt>
-					<dd>[5] 为 60%，每个 [3] 为 20% (60% 的 1/3)。</dd>
+					<dt>例子 1：行動級別為 [5] 和 [5] </dt>
+					<dd>每個行動的幾率為 50%。</dd>
+					<dt>例子 2：行動級別為 [6]，[5]，[4]，[3] </dt>
+					<dd>[6] 為 50%，[5] 為 33.3% (50% 的 2/3)，[4] 為 16.6% (50% 的 1/3)。[3] 不會成為備選行動。</dd>
+					<dt>例子 3：行動級別為 [5]，[3] 和 [3] </dt>
+					<dd>[5] 為 60%，每個 [3] 為 20% (60% 的 1/3)。</dd>
 				</dl>
 				</li>
-		    <li>实际采取的行动会按照以上概率在备选行动中随机产生。</li>
+		    <li>實際採取的行動會按照以上概率在備選行動中隨機產生。</li>
 		  </ol>
 		</div><!-- /main__section -->
 

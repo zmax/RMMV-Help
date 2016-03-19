@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Tilemap 类</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tilemap 類</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -11,15 +11,15 @@
 
 	<div class="main">
 
-		<h1 class="main__title--h1 main__title--h1--v07">Tilemap 类</h1>
+		<h1 class="main__title--h1 main__title--h1--v07">Tilemap 類</h1>
 		<ul class="breadcrumb">
-			<li>JS 库</li>
+			<li>JS 庫</li>
 			<li>&gt;</li>
-			<li>Tilemap 类</li>
+			<li>Tilemap 類</li>
 		</ul>
-		<p>用于显示由2D图块组成的游戏地图的 tilemap（图块地图） 类。</p>
+		<p>用於顯示由2D圖塊組成的遊戲地圖的 tilemap（圖塊地圖） 類。</p>
 		<div class="main__section">
-			<h2 class="main__title--h2">构造函数</h2>
+			<h2 class="main__title--h2">構造函數</h2>
 <pre class="main__pre--code">
 Tilemap ()
 </pre>
@@ -40,7 +40,7 @@ Tilemap ()
 				<li><a href="#m08">update</a></li>
 			</ul>
 
-			<b>属性</b>
+			<b>屬性</b>
 			<ul class="main__ul--inline">
 				<li><a href="#p01">animationCount</a></li>
 				<li><a href="#p02">bitmaps</a></li>
@@ -68,7 +68,7 @@ addChild ( child ) <span class="pre__type">Object</span>
 </pre>
 				<p class="mb10px">向容器中添加子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">child</code>
@@ -90,7 +90,7 @@ addChildAt ( child  index ) <span class="pre__type">Object</span>
 </pre>
 				<p class="mb10px">在容器指定索引的位置添加子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">child</code>
@@ -117,11 +117,11 @@ addChildAt ( child  index ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 isReady () <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">检测图块组是否可以开始渲染。</p>
+				<p class="mb10px">檢測圖塊組是否可以開始渲染。</p>
 				<div class="params">
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Boolean:</span><br />
-					若可以开始渲染，返回 true </p>
+					若可以開始渲染，返回 true </p>
 				</div>
 			</div><!-- /div -->
 
@@ -129,16 +129,16 @@ isReady () <span class="pre__type">Boolean</span>
 <pre class="main__pre--code">
 refresh ()
 </pre>
-				<p class="mb10px">强制重绘整个 tilemap（图块地图）。</p>
+				<p class="mb10px">強制重繪整個 tilemap（圖塊地圖）。</p>
 			</div><!-- /div -->
 
 			<div id="m05" class="main__subsection">
 <pre class="main__pre--code">
 removeChild ( child ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">从容器中移除子元素。</p>
+				<p class="mb10px">從容器中移除子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">child</code>
@@ -160,7 +160,7 @@ removeChildAt ( index ) <span class="pre__type">Object</span>
 </pre>
 				<p class="mb10px">移除容器指定索引位置的子元素。</p>
 				<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">index</code>
@@ -180,29 +180,29 @@ removeChildAt ( index ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 setData ( width  height  data )
 </pre>
-				<p class="mb10px">设置 tilemap（图块地图） 的数据。</p>
+				<p class="mb10px">設置 tilemap（圖塊地圖） 的數據。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>地图的横向图块数</p>
+								<p>地圖的橫向圖塊數</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>地图的纵向图块数</p>
+								<p>地圖的縱向圖塊數</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">data</code>
 							<span class="type">Array</span>
 							<div class="param-description">
-								<p>地图数据的一维数组</p>
+								<p>地圖數據的一維數組</p>
 							</div>
 						</li>
 					</ul>
@@ -213,7 +213,7 @@ setData ( width  height  data )
 <pre class="main__pre--code">
 update ()
 </pre>
-				<p class="mb10px">在每一帧中刷新 tilemap（图块地图）。</p>
+				<p class="mb10px">在每一幀中刷新 tilemap（圖塊地圖）。</p>
 			</div><!-- /div -->
 
 
@@ -222,20 +222,20 @@ update ()
 
 
 		<div class="main__section">
-			<h2 class="main__title--h2">属性</h2>
+			<h2 class="main__title--h2">屬性</h2>
 
 			<div id="p01" class="main__subsection">
 <pre class="main__pre--code">
 animationCount <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">自动图块的动画计数器。</p>
+				<p class="mb10px">自動圖塊的動畫計數器。</p>
 			</div><!-- /div -->
 
 			<div id="p02" class="main__subsection">
 <pre class="main__pre--code">
 bitmaps <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">地图图块的 Bitmap（位图） 对象数组。</p>
+				<p class="mb10px">地圖圖塊的 Bitmap（位圖） 對像數組。</p>
 			</div><!-- /div -->
 
 			<div id="p03" class="main__subsection">
@@ -243,7 +243,7 @@ bitmaps <span class="pre__type">Array</span>
 children <span class="pre__type">Array</span>
 </pre>
 <!-- 				<p class="mb10px">[read-only] The array of children of the sprite.</p> -->
-				<p class="mb10px">[只读] tilemap（图块地图） 的子元素数组。</p>
+				<p class="mb10px">[只讀] tilemap（圖塊地圖） 的子元素數組。</p>
 			</div><!-- /div -->
 		</div><!-- /main__section -->
 
@@ -251,63 +251,63 @@ children <span class="pre__type">Array</span>
 <pre class="main__pre--code">
 flags <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">图块组的标志列表。</p>
+				<p class="mb10px">圖塊組的標誌列表。</p>
 			</div><!-- /div -->
 
 			<div id="p05" class="main__subsection">
 <pre class="main__pre--code">
 height <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">游戏画面的高度（像素）。</p>
+				<p class="mb10px">遊戲畫面的高度（像素）。</p>
 			</div><!-- /div -->
 
 			<div id="p06" class="main__subsection">
 <pre class="main__pre--code">
 horizontalWrap <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">tilemap（图块地图） 是否横向循环。</p>
+				<p class="mb10px">tilemap（圖塊地圖） 是否橫向循環。</p>
 			</div><!-- /div -->
 
 			<div id="p07" class="main__subsection">
 <pre class="main__pre--code">
 origin <span class="pre__type">Point</span>
 </pre>
-				<p class="mb10px">tilemap（图块地图） 卷动的起始坐标。</p>
+				<p class="mb10px">tilemap（圖塊地圖） 捲動的起始坐標。</p>
 			</div><!-- /div -->
 
 			<div id="p08" class="main__subsection">
 <pre class="main__pre--code">
 parent <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">[只读]包含此 tilemap（图块地图） 的父容器。</p>
+				<p class="mb10px">[只讀]包含此 tilemap（圖塊地圖） 的父容器。</p>
 			</div><!-- /div -->
 
 			<div id="p09" class="main__subsection">
 <pre class="main__pre--code">
 tileHeight <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">单个图块的高度（像素）。</p>
+				<p class="mb10px">單個圖塊的高度（像素）。</p>
 			</div><!-- /div -->
 
 			<div id="p10" class="main__subsection">
 <pre class="main__pre--code">
 tileWidth <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">单个图块的宽度（像素）。</p>
+				<p class="mb10px">單個圖塊的寬度（像素）。</p>
 			</div><!-- /div -->
 
 			<div id="p11" class="main__subsection">
 <pre class="main__pre--code">
 verticalWrap <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">tilemap（图块地图） 是否纵向循环。</p>
+				<p class="mb10px">tilemap（圖塊地圖） 是否縱向循環。</p>
 			</div><!-- /div -->
 
 			<div id="p12" class="main__subsection">
 <pre class="main__pre--code">
 width <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">游戏画面的宽度。</p>
+				<p class="mb10px">遊戲畫面的寬度。</p>
 			</div><!-- /div -->
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main"><head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Bitmap 类</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Bitmap 類</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css">
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,26 +10,26 @@
 
 	<div class="main">
 
-		<h1 class="main__title--h1 main__title--h1--v07">Bitmap 类</h1>
+		<h1 class="main__title--h1 main__title--h1--v07">Bitmap 類</h1>
 		<ul class="breadcrumb">
-			<li>JS 库</li>
+			<li>JS 庫</li>
 			<li>&gt;</li>
-			<li>Bitmap 类</li>
+			<li>Bitmap 類</li>
 		</ul>
-		<p>用于表示位图的基本对象。</p>
+		<p>用於表示位圖的基本對象。</p>
 		<div class="main__section">
-			<h2 class="main__title--h2">构造函数</h2>
+			<h2 class="main__title--h2">構造函數</h2>
 <pre class="main__pre--code">Bitmap ( width , height )
 </pre>
 			<div class="params">
-				<h4>参数：</h4>
+				<h4>參數：</h4>
 
 				<ul class="params-list">
 					<li class="param">
 						<code class="param-name">width</code>
 						<span class="type">Number</span>
 						<div class="param-description">
-							<p>位图的宽度</p>
+							<p>位圖的寬度</p>
 						</div>
 					</li>
 
@@ -37,7 +37,7 @@
 						<code class="param-name">height</code>
 						<span class="type">Number</span>
 						<div class="param-description">
-							<p>位图的高度</p>
+							<p>位圖的高度</p>
 						</div>
 					</li>
 				</ul>
@@ -71,7 +71,7 @@
 				<li><a href="#m20">snap</a> <span>static</span></li>
 			</ul>
 
-			<b>属性</b>
+			<b>屬性</b>
 			<ul class="main__ul--inline">
 				<li><a href="#p01">baseTexture</a></li>
 				<li><a href="#p02">canvas</a></li>
@@ -98,15 +98,15 @@
 			<div id="m01" class="main__subsection">
 <pre class="main__pre--code">addLoadListener ( listner )
 </pre>
-				<p class="mb10px">添加一个回调函数，在位图被加载时调用该函数。</p>
+				<p class="mb10px">添加一個回調函數，在位圖被加載時調用該函數。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">listner</code>
 							<span class="type">Function</span>
 							<div class="param-description">
-								<p>回调函数</p>
+								<p>回調函數</p>
 							</div>
 						</li>
 					</ul>
@@ -116,29 +116,29 @@
 			<div id="m02" class="main__subsection">
 <pre class="main__pre--code">adjustTone ( r , g , b )
 </pre>
-				<p class="mb10px">改变位图色调。</p>
+				<p class="mb10px">改變位圖色調。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">r</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>红色通道强度（-255～255）</p>
+								<p>紅色通道強度（-255～255）</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">g</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>绿色通道强度（-255～255）</p>
+								<p>綠色通道強度（-255～255）</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">b</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>蓝色通道强度（-255～255）</p>
+								<p>藍色通道強度（-255～255）</p>
 							</div>
 						</li>
 					</ul>
@@ -148,73 +148,73 @@
 			<div id="m03" class="main__subsection">
 <pre class="main__pre--code">blt ( source , sx , sy , sw , sh , dx , dy , [dw=sw] , [dh=sh] )
 </pre>
-				<p class="mb10px">将源位图给定矩形区域的数据传送到当前位图的给定矩形区域内。</p>
+				<p class="mb10px">將源位圖給定矩形區域的數據傳送到當前位圖的給定矩形區域內。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">source</code>
 							<span class="type">Bitmap</span>
 							<div class="param-description">
-								<p>源位图</p>
+								<p>源位圖</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">sx</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>源位图矩形区域左上角的 X 坐标</p>
+								<p>源位圖矩形區域左上角的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">sy</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>源位图矩形区域左上角的 Y 坐标</p>
+								<p>源位圖矩形區域左上角的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">sw</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>源位图矩形区域的宽度</p>
+								<p>源位圖矩形區域的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">sh</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>源位图矩形区域的高度</p>
+								<p>源位圖矩形區域的高度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">dx</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>目标区域左上角的 X 坐标</p>
+								<p>目標區域左上角的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">dy</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>目标区域左上角的 Y 坐标</p>
+								<p>目標區域左上角的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">[dw=sw]</code>
 							<span class="type">Number</span>
-							<span class="type">[可选参数]</span>
+							<span class="type">[可選參數]</span>
 							<div class="param-description">
-								<p>目标区域的宽度</p>
+								<p>目標區域的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">[dh=sh]</code>
 							<span class="type">Number</span>
-							<span class="type">[可选参数]</span>
+							<span class="type">[可選參數]</span>
 							<div class="param-description">
-								<p>目标区域的高度</p>
+								<p>目標區域的高度</p>
 							</div>
 						</li>
 					</ul>
@@ -224,48 +224,48 @@
 			<div id="m04" class="main__subsection">
 <pre class="main__pre--code">blur ()
 </pre>
-				<p class="mb10px">对位图执行模糊效果。</p>
+				<p class="mb10px">對位圖執行模糊效果。</p>
 			</div><!-- /div -->
 
 			<div id="m05" class="main__subsection">
 <pre class="main__pre--code">clear ()
 </pre>
-				<p class="mb10px">清除位图。</p>
+				<p class="mb10px">清除位圖。</p>
 			</div><!-- /div -->
 
 			<div id="m06" class="main__subsection">
 <pre class="main__pre--code">clearRect ( x , y , width , height )
 </pre>
-				<p class="mb10px">清除位图中指定矩形区域的内容。</p>
+				<p class="mb10px">清除位圖中指定矩形區域的內容。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域左上角的 X 坐标</p>
+								<p>矩形區域左上角的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域左上角的 Y 坐标</p>
+								<p>矩形區域左上角的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的宽度</p>
+								<p>矩形區域的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的高度</p>
+								<p>矩形區域的高度</p>
 							</div>
 						</li>
 					</ul>
@@ -275,36 +275,36 @@
 			<div id="m07" class="main__subsection">
 <pre class="main__pre--code">drawCircle ( x , y , radius , color )
 </pre>
-				<p class="mb10px">填充指定的圆形区域。</p>
+				<p class="mb10px">填充指定的圓形區域。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>圆形区域圆心的 X 坐标</p>
+								<p>圓形區域圓心的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>圆形区域圆心的 Y 坐标</p>
+								<p>圓形區域圓心的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">radius</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>圆形区域的半径</p>
+								<p>圓形區域的半徑</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">color</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>圆形区域的颜色（CSS格式）</p>
+								<p>圓形區域的顏色（CSS格式）</p>
 							</div>
 						</li>
 					</ul>
@@ -314,36 +314,36 @@
 			<div id="m08" class="main__subsection">
 <pre class="main__pre--code">drawText ( text , x , y , maxWidth , lineHeight , align )
 </pre>
-				<p class="mb10px">在位图上绘制描边文字。</p>
+				<p class="mb10px">在位圖上繪製描邊文字。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">text</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>要绘制的文字</p>
+								<p>要繪製的文字</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>文字左侧的 X 坐标</p>
+								<p>文字左側的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>文字顶部的 Y 坐标</p>
+								<p>文字頂部的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">maxWidth</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>文字允许的最大宽度</p>
+								<p>文字允許的最大寬度</p>
 							</div>
 						</li>
 						<li class="param">
@@ -357,7 +357,7 @@
 							<code class="param-name">align</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>文字的对齐方式</p>
+								<p>文字的對齊方式</p>
 							</div>
 						</li>
 					</ul>
@@ -367,15 +367,15 @@
 			<div id="m09" class="main__subsection">
 <pre class="main__pre--code">fillAll ( color )
 </pre>
-				<p class="mb10px">填充整个位图</p>
+				<p class="mb10px">填充整個位圖</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">color</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>填充的颜色（CSS格式）</p>
+								<p>填充的顏色（CSS格式）</p>
 							</div>
 						</li>
 					</ul>
@@ -385,43 +385,43 @@
 			<div id="m10" class="main__subsection">
 <pre class="main__pre--code">fillRect ( x , y , width , height , color )
 </pre>
-				<p class="mb10px">填充指定的矩形区域。</p>
+				<p class="mb10px">填充指定的矩形區域。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的 X 坐标</p>
+								<p>矩形區域的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的 Y 坐标</p>
+								<p>矩形區域的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的宽度</p>
+								<p>矩形區域的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的高度</p>
+								<p>矩形區域的高度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">color</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>填充的颜色（CSS格式）</p>
+								<p>填充的顏色（CSS格式）</p>
 							</div>
 						</li>
 					</ul>
@@ -431,7 +431,7 @@
 			<div id="m11" class="main__subsection">
 <pre class="main__pre--code">getAlphaPixel ( x , y ) <span class="pre__type">String</span>
 </pre>
-				<p class="mb10px">返回指定像素点的不透明度（alpha 值）。</p>
+				<p class="mb10px">返回指定像素點的不透明度（alpha 值）。</p>
 				<div class="params">
 					<h4>Parameters:</h4>
 					<ul class="params-list">
@@ -439,14 +439,14 @@
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>位图中指定点的 X 坐标</p>
+								<p>位圖中指定點的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>位图中指定点的 Y 坐标</p>
+								<p>位圖中指定點的 Y 坐標</p>
 							</div>
 						</li>
 					</ul>
@@ -459,85 +459,85 @@
 			<div id="m12" class="main__subsection">
 <pre class="main__pre--code">getPixel ( x , y ) <span class="pre__type">String</span>
 </pre>
-				<p class="mb10px">返回指定像素点的颜色。</p>
+				<p class="mb10px">返回指定像素點的顏色。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>位图中指定点的 X 坐标</p>
+								<p>位圖中指定點的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>位图中指定点的 Y 坐标</p>
+								<p>位圖中指定點的 Y 坐標</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">String:</span><br>
-					颜色（十六进制格式）</p>
+					顏色（十六進制格式）</p>
 				</div>
 			</div><!-- /div -->
 
 			<div id="m13" class="main__subsection">
 <pre class="main__pre--code">gradientFillRect ( x , y , width , height , color1 , color2 , vertical )
 </pre>
-				<p class="mb10px">以渐变模式填充指定的矩形区域。</p>
+				<p class="mb10px">以漸變模式填充指定的矩形區域。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的 X 坐标</p>
+								<p>矩形區域的 X 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的 Y 坐标</p>
+								<p>矩形區域的 Y 坐標</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的宽度</p>
+								<p>矩形區域的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>矩形区域的高度</p>
+								<p>矩形區域的高度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">color1</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>渐变的起始颜色</p>
+								<p>漸變的起始顏色</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">color2</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>渐变的结束颜色</p>
+								<p>漸變的結束顏色</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">vertical</code>
 							<span class="type">Boolean</span>
 							<div class="param-description">
-								<p>是否为纵向渐变</p>
+								<p>是否為縱向漸變</p>
 							</div>
 						</li>
 					</ul>
@@ -547,85 +547,85 @@
 			<div id="m14" class="main__subsection">
 <pre class="main__pre--code">isError () <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">检测位图加载时是否发生错误。</p>
+				<p class="mb10px">檢測位圖加載時是否發生錯誤。</p>
 				<div class="params">
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Boolean:</span><br>
-					若发生错误，返回 true</p>
+					若發生錯誤，返回 true</p>
 				</div>
 			</div><!-- /div -->
 
 			<div id="m15" class="main__subsection">
 <pre class="main__pre--code">isReady () <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">检测位图能否开始渲染。</p>
+				<p class="mb10px">檢測位圖能否開始渲染。</p>
 				<div class="params">
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Boolean:</span><br>
-					若位图能够开始渲染，返回 true</p>
+					若位圖能夠開始渲染，返回 true</p>
 				</div>
 			</div><!-- /div -->
 
 			<div id="m16" class="main__subsection">
 <pre class="main__pre--code">load ( url ) <span class="pre__static">[static]</span>
 </pre>
-				<p class="mb10px">加载图片文件，返回一个新的位图对象。</p>
+				<p class="mb10px">加載圖片文件，返回一個新的位圖對象。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">url</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>加载图片的地址</p>
+								<p>加載圖片的地址</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
-					<p><span class="pre__type">Bitmap（位图） 对象</span></p>
+					<p><span class="pre__type">Bitmap（位圖） 對像</span></p>
 				</div>
 			</div><!-- /div -->
 
 			<div id="m17" class="main__subsection">
 <pre class="main__pre--code">measureTextWidth ( text ) <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">测量指定文字的宽度。</p>
+				<p class="mb10px">測量指定文字的寬度。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">text</code>
 							<span class="type">String</span>
 							<div class="param-description">
-								<p>待测量的文字</p>
+								<p>待測量的文字</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Number:</span> <br>
-					文字的宽度（像素）</p>
+					文字的寬度（像素）</p>
 				</div>
 			</div><!-- /div -->
 
 			<div id="m18" class="main__subsection">
 <pre class="main__pre--code">resize ( width , height )
 </pre>
-				<p class="mb10px">调整位图大小。</p>
+				<p class="mb10px">調整位圖大小。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>位图调整后的宽度</p>
+								<p>位圖調整後的寬度</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>位图调整后的高度</p>
+								<p>位圖調整後的高度</p>
 							</div>
 						</li>
 					</ul>
@@ -635,15 +635,15 @@
 			<div id="m19" class="main__subsection">
 <pre class="main__pre--code">rotateHue ( offset )
 </pre>
-				<p class="mb10px">变换位图的色相。</p>
+				<p class="mb10px">變換位圖的色相。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">offset</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>色相环的偏移量（360度以内）</p>
+								<p>色相環的偏移量（360度以內）</p>
 							</div>
 						</li>
 					</ul>
@@ -653,115 +653,115 @@
 			<div id="m20" class="main__subsection">
 <pre class="main__pre--code">snap ( stage ) <span class="pre__static">[static]</span>
 </pre>
-				<p class="mb10px">截取当前游戏画面，返回一个新的 Bitmap（位图） 对象。</p>
+				<p class="mb10px">截取當前遊戲畫面，返回一個新的 Bitmap（位圖） 對象。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">stage</code>
 							<span class="type">PIXI.Stage</span>
 							<div class="param-description">
-								<p>stage（场景） 对象</p>
+								<p>stage（場景） 對像</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
-					<p><span class="pre__type">Bitmap（位图） 对象</span></p>
+					<p><span class="pre__type">Bitmap（位圖） 對像</span></p>
 				</div>
 			</div><!-- /div -->
 		</div><!-- /main__section -->
 
 
 		<div class="main__section">
-			<h2 class="main__title--h2">属性</h2>
+			<h2 class="main__title--h2">屬性</h2>
 			<div id="p01" class="main__subsection">
 <pre class="main__pre--code">baseTexture <span class="pre__type">PIXI.BaseTexture</span>
 </pre>
-				<p class="mb10px">[只读] 位图对象的 BaseTexture。</p>
+				<p class="mb10px">[只讀] 位圖對象的 BaseTexture。</p>
 			</div><!-- /div -->
 
 			<div id="p02" class="main__subsection">
 <pre class="main__pre--code">canvas <span class="pre__type">HTMLCanvasElement</span>
 </pre>
-				<p class="mb10px">[只读] 位图对象的 Canvas。</p>
+				<p class="mb10px">[只讀] 位圖對象的 Canvas。</p>
 			</div><!-- /div -->
 
 			<div id="p03" class="main__subsection">
 <pre class="main__pre--code">context <span class="pre__type">CanvasRenderingContext2D</span>
 </pre>
-				<p class="mb10px">[只读] 位图对象的 CanvasRenderingContext2D 对象。</p>
+				<p class="mb10px">[只讀] 位圖對象的 CanvasRenderingContext2D 對象。</p>
 			</div><!-- /div -->
 
 			<div id="p04" class="main__subsection">
 <pre class="main__pre--code">fontFace <span class="pre__type">String</span>
 </pre>
-				<p class="mb10px">字体名称。</p>
+				<p class="mb10px">字體名稱。</p>
 			</div><!-- /div -->
 
 			<div id="p05" class="main__subsection">
 <pre class="main__pre--code">fontItalic <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">字体倾斜。</p>
+				<p class="mb10px">字體傾斜。</p>
 			</div><!-- /div -->
 
 			<div id="p06" class="main__subsection">
 <pre class="main__pre--code">fontSize <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">字体大小。</p>
+				<p class="mb10px">字體大小。</p>
 			</div><!-- /div -->
 
 			<div id="p07" class="main__subsection">
 <pre class="main__pre--code">height <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">[只读] 位图的高度。</p>
+				<p class="mb10px">[只讀] 位圖的高度。</p>
 			</div><!-- /div -->
 
 			<div id="p08" class="main__subsection">
 <pre class="main__pre--code">outlineColor <span class="pre__type">String</span>
 </pre>
-				<p class="mb10px">文字描边的颜色（CSS格式）。</p>
+				<p class="mb10px">文字描邊的顏色（CSS格式）。</p>
 			</div><!-- /div -->
 
 			<div id="p09" class="main__subsection">
 <pre class="main__pre--code">outlineWidth <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">文字描边的厚度。</p>
+				<p class="mb10px">文字描邊的厚度。</p>
 			</div><!-- /div -->
 
 			<div id="p10" class="main__subsection">
 <pre class="main__pre--code">paintOpacity <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">位图对象的不透明度（alpha 值）（0~255）。</p>
+				<p class="mb10px">位圖對象的不透明度（alpha 值）（0~255）。</p>
 			</div><!-- /div -->
 
 			<div id="p11" class="main__subsection">
 <pre class="main__pre--code">rect <span class="pre__type">Rectangle</span>
 </pre>
-				<p class="mb10px">[只读] 位图对象的矩形区域。</p>
+				<p class="mb10px">[只讀] 位圖對象的矩形區域。</p>
 			</div><!-- /div -->
 
 			<div id="p12" class="main__subsection">
 <pre class="main__pre--code">smooth <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">是否应用平滑缩放。</p>
+				<p class="mb10px">是否應用平滑縮放。</p>
 			</div><!-- /div -->
 
 			<div id="p13" class="main__subsection">
 <pre class="main__pre--code">textColor <span class="pre__type">String</span>
 </pre>
-				<p class="mb10px">文字的颜色（CSS格式）。</p>
+				<p class="mb10px">文字的顏色（CSS格式）。</p>
 			</div><!-- /div -->
 
 			<div id="p14" class="main__subsection">
 <pre class="main__pre--code">url <span class="pre__type">String</span>
 </pre>
-				<p class="mb10px">[只读] 图片文件的地址。</p>
+				<p class="mb10px">[只讀] 圖片文件的地址。</p>
 			</div><!-- /div -->
 
 			<div id="p15" class="main__subsection">
 <pre class="main__pre--code">width <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">[只读] 位图的宽度。</p>
+				<p class="mb10px">[只讀] 位圖的寬度。</p>
 			</div><!-- /div -->
 
 			<hr />

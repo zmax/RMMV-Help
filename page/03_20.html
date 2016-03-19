@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Window Class</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
@@ -17,7 +17,7 @@
 			<li>&gt;</li>
 			<li>Window Class</li>
 		</ul>
-		<p>游戏内的窗口。</p>
+		<p>遊戲內的窗口。</p>
 		<div class="main__section">
 			<h2 class="main__title--h2">Constructor</h2>
 <pre class="main__pre--code">
@@ -27,7 +27,7 @@ Window ()
 
 
 		<div class="main__section">
-			<h2 class="main__title--h2">项目</h2>
+			<h2 class="main__title--h2">項目</h2>
 			<b>方法</b>
 			<ul class="main__ul--inline">
 				<li><a href="#m01">addChild</a></li>
@@ -43,7 +43,7 @@ Window ()
 				<li><a href="#m11">update</a></li>
 			</ul>
 
-			<b>属性</b>
+			<b>屬性</b>
 			<ul class="main__ul--inline">
 				<li><a href="#p01">active</a></li>
 				<li><a href="#p02">backOpacity</a></li>
@@ -76,21 +76,21 @@ Window ()
 <pre class="main__pre--code">
 addChild ( child ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">向容器添加一个子对象。</p>
+				<p class="mb10px">向容器添加一個子對象。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">child</code>
 							<span class="type">Object</span>
 							<div class="param-description">
-								<p>要添加的子对象。</p>
+								<p>要添加的子對象。</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Object:</span> <br />
-					被添加的子对象。</p>
+					被添加的子對象。</p>
 				</div>
 			</div><!-- /div -->
 
@@ -98,15 +98,15 @@ addChild ( child ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 addChildAt ( child  index ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">将子对象添加到指定索引位置。</p>
+				<p class="mb10px">將子對像添加到指定索引位置。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">child</code>
 							<span class="type">Object</span>
 							<div class="param-description">
-								<p>要添加的子对象。</p>
+								<p>要添加的子對象。</p>
 							</div>
 						</li>
 						<li class="param">
@@ -119,7 +119,7 @@ addChildAt ( child  index ) <span class="pre__type">Object</span>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Object:</span> <br />
-					被添加的子对象。</p>
+					被添加的子對象。</p>
 				</div>
 			</div><!-- /div -->
 
@@ -127,21 +127,21 @@ addChildAt ( child  index ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 addChildToBack ( child ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">添加一个子对象于内容和背景之间。</p>
+				<p class="mb10px">添加一個子對像於內容和背景之間。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">child</code>
 							<span class="type">Object</span>
 							<div class="param-description">
-								<p>要添加的子对象。</p>
+								<p>要添加的子對象。</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Object:</span> <br />
-					被添加的子对象。</p>
+					被添加的子對象。</p>
 				</div>
 			</div><!-- /div -->
 
@@ -149,43 +149,43 @@ addChildToBack ( child ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 isClosed ()
 </pre>
-				<p class="mb10px">如果窗口被成功关闭（窗口的开启程度为0），则返回 true 。</p>
+				<p class="mb10px">如果窗口被成功關閉（窗口的開啟程度為0），則返回 true 。</p>
 			</div><!-- /div -->
 
 			<div id="m05" class="main__subsection">
 <pre class="main__pre--code">
 isOpen ()
 </pre>
-				<p class="mb10px">如果窗口被成功打开（窗口的开启程度为255），则返回 true 。</p>
+				<p class="mb10px">如果窗口被成功打開（窗口的開啟程度為255），則返回 true 。</p>
 			</div><!-- /div -->
 
 			<div id="m06" class="main__subsection">
 <pre class="main__pre--code">
 move ( x , y , width , height )
 </pre>
-				<p class="mb10px">同时设置x坐标、y坐标、宽度和高度。</p>
+				<p class="mb10px">同時設置x坐標、y坐標、寬度和高度。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>窗口的x坐标。</p>
+								<p>窗口的x坐標。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>窗口的y坐标。</p>
+								<p>窗口的y坐標。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>窗口的宽度。</p>
+								<p>窗口的寬度。</p>
 							</div>
 						</li>
 						<li class="param">
@@ -203,21 +203,21 @@ move ( x , y , width , height )
 <pre class="main__pre--code">
 removeChild ( child ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">从容器中移除一个子对象。</p>
+				<p class="mb10px">從容器中移除一個子對象。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">child</code>
 							<span class="type">Object</span>
 							<div class="param-description">
-								<p>要移除的子对象。</p>
+								<p>要移除的子對象。</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Object:</span> <br />
-					被移除的子对象。</p>
+					被移除的子對象。</p>
 				</div>
 			</div><!-- /div -->
 
@@ -225,21 +225,21 @@ removeChild ( child ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 removeChildAt ( index ) <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">移除指定索引处的子对象。</p>
+				<p class="mb10px">移除指定索引處的子對象。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">index</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>要移除的子对象的索引。</p>
+								<p>要移除的子對象的索引。</p>
 							</div>
 						</li>
 					</ul>
 					<h4>返回值：</h4>
 					<p><span class="pre__type">Object:</span> <br />
-					被移除的子对象。</p>
+					被移除的子對象。</p>
 				</div>
 			</div><!-- /div -->
 
@@ -247,36 +247,36 @@ removeChildAt ( index ) <span class="pre__type">Object</span>
 <pre class="main__pre--code">
 setCursorRect ( x , y , width , height )
 </pre>
-				<p class="mb10px">设置光标存放区域。</p>
+				<p class="mb10px">設置光標存放區域。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">x</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>光标的x坐标。</p>
+								<p>光標的x坐標。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">y</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>光标的y坐标。</p>
+								<p>光標的y坐標。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">width</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>光标的宽度。</p>
+								<p>光標的寬度。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">height</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>光标的高度。</p>
+								<p>光標的高度。</p>
 							</div>
 						</li>
 					</ul>
@@ -287,29 +287,29 @@ setCursorRect ( x , y , width , height )
 <pre class="main__pre--code">
 setTone ( r , g , b )
 </pre>
-				<p class="mb10px">改变背景的色调。</p>
+				<p class="mb10px">改變背景的色調。</p>
 				<div class="params">
-					<h4>参数：</h4>
+					<h4>參數：</h4>
 					<ul class="params-list">
 						<li class="param">
 							<code class="param-name">r</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>介于(-255, 255)之间的红色值。</p>
+								<p>介於(-255, 255)之間的紅色值。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">g</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>介于(-255, 255)之间的绿色值。</p>
+								<p>介於(-255, 255)之間的綠色值。</p>
 							</div>
 						</li>
 						<li class="param">
 							<code class="param-name">b</code>
 							<span class="type">Number</span>
 							<div class="param-description">
-								<p>介于(-255, 255)之间的蓝色值</p>
+								<p>介於(-255, 255)之間的藍色值</p>
 							</div>
 						</li>
 					</ul>
@@ -331,13 +331,13 @@ update ()
 
 
 		<div class="main__section">
-			<h2 class="main__title--h2">属性</h2>
+			<h2 class="main__title--h2">屬性</h2>
 
 			<div id="p01" class="main__subsection">
 <pre class="main__pre--code">
 active <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">光标闪烁的状态。</p>
+				<p class="mb10px">光標閃爍的狀態。</p>
 			</div><!-- /div -->
 
 			<div id="p02" class="main__subsection">
@@ -351,28 +351,28 @@ backOpacity <span class="pre__type">Number</span>
 <pre class="main__pre--code">
 children <span class="pre__type">Array</span>
 </pre>
-				<p class="mb10px">[只读]窗口的子对象数组。</p>
+				<p class="mb10px">[只讀]窗口的子對像數組。</p>
 			</div><!-- /div -->
 
 			<div id="p04" class="main__subsection">
 <pre class="main__pre--code">
 contents <span class="pre__type"><a href="01_01.html">Bitmap</a></span>
 </pre>
-				<p class="mb10px">窗口内容的引用位图。</p>
+				<p class="mb10px">窗口內容的引用位圖。</p>
 			</div><!-- /div -->
 
 			<div id="p05" class="main__subsection">
 <pre class="main__pre--code">
 contentsOpacity <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口内容的不透明度（0~255）。</p>
+				<p class="mb10px">窗口內容的不透明度（0~255）。</p>
 			</div><!-- /div -->
 
 			<div id="p06" class="main__subsection">
 <pre class="main__pre--code">
 downArrowVisible  <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">下滚箭头的可见性。</p>
+				<p class="mb10px">下滾箭頭的可見性。</p>
 			</div><!-- /div -->
 
 			<div id="p07" class="main__subsection">
@@ -386,7 +386,7 @@ height <span class="pre__type">Number</span>
 <pre class="main__pre--code">
 margin <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口的外边距。</p>
+				<p class="mb10px">窗口的外邊距。</p>
 			</div><!-- /div -->
 
 			<div id="p09" class="main__subsection">
@@ -400,77 +400,77 @@ opacity <span class="pre__type">Number</span>
 <pre class="main__pre--code">
 openness <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口的开启程度（0~255）。</p>
+				<p class="mb10px">窗口的開啟程度（0~255）。</p>
 			</div><!-- /div -->
 
 			<div id="p11" class="main__subsection">
 <pre class="main__pre--code">
 origin <span class="pre__type">Point</span>
 </pre>
-				<p class="mb10px">窗口滚动的初始点。</p>
+				<p class="mb10px">窗口滾動的初始點。</p>
 			</div><!-- /div -->
 
 			<div id="p12" class="main__subsection">
 <pre class="main__pre--code">
 padding <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口框架与内容之间的填充宽度（内边距）。</p>
+				<p class="mb10px">窗口框架與內容之間的填充寬度（內邊距）。</p>
 			</div><!-- /div -->
 
 			<div id="p13" class="main__subsection">
 <pre class="main__pre--code">
 parent <span class="pre__type">Object</span>
 </pre>
-				<p class="mb10px">[只读]窗口的父对象。</p>
+				<p class="mb10px">[只讀]窗口的父對象。</p>
 			</div><!-- /div -->
 
 			<div id="p14" class="main__subsection">
 <pre class="main__pre--code">
 pause <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">暂停标记的可见性。</p>
+				<p class="mb10px">暫停標記的可見性。</p>
 			</div><!-- /div -->
 
 			<div id="p15" class="main__subsection">
 <pre class="main__pre--code">
 upArrowVisible <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">上滚箭头的可见性。</p>
+				<p class="mb10px">上滾箭頭的可見性。</p>
 			</div><!-- /div -->
 
 			<div id="p16" class="main__subsection">
 <pre class="main__pre--code">
 visible <span class="pre__type">Boolean</span>
 </pre>
-				<p class="mb10px">窗口的可见性。</p>
+				<p class="mb10px">窗口的可見性。</p>
 			</div><!-- /div -->
 
 			<div id="p17" class="main__subsection">
 <pre class="main__pre--code">
 width <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口的宽度。</p>
+				<p class="mb10px">窗口的寬度。</p>
 			</div><!-- /div -->
 
 			<div id="p18" class="main__subsection">
 <pre class="main__pre--code">
 windowskin <span class="pre__type"><a href="01_01.html">Bitmap</a></span>
 </pre>
-				<p class="mb10px">窗口外观的引用位图。</p>
+				<p class="mb10px">窗口外觀的引用位圖。</p>
 			</div><!-- /div -->
 
 			<div id="p19" class="main__subsection">
 <pre class="main__pre--code">
 x <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口的x坐标。</p>
+				<p class="mb10px">窗口的x坐標。</p>
 			</div><!-- /div -->
 
 			<div id="p20" class="main__subsection">
 <pre class="main__pre--code">
 y <span class="pre__type">Number</span>
 </pre>
-				<p class="mb10px">窗口的y坐标。</p>
+				<p class="mb10px">窗口的y坐標。</p>
 			</div><!-- /div -->
 
 

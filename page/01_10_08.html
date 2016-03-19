@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>图片</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>圖片</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,135 +10,135 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v05">图片</h1>
+	  <h1 class="main__title--h1 main__title--h1--v05">圖片</h1>
 	  <ul class="breadcrumb">
 	    <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
 		  <li><a href="01_10.html">事件指令</a></li>
 		  <li>&gt;</li>
-		  <li>图片</li>
+		  <li>圖片</li>
 	  </ul>
 
 		<div class="main__section" id="p01">
-		  <h2 class="main__title--h2">Show Picture（显示图片）</h2>
+		  <h2 class="main__title--h2">Show Picture（顯示圖片）</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_08_img01.png" height="444" width="452" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>在屏幕上显示图片（静态图片）。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>在屏幕上顯示圖片（靜態圖片）。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-				<dt>Picture: Number（图片编号）</dt>
-				<dd>指定图片相关联的控制编号（1 ~ 100）。</dd>
-				<dt>Picture: Image（图片文件）</dt>
-				<dd>指定要显示的图片。</dd>
+				<dt>Picture: Number（圖片編號）</dt>
+				<dd>指定圖片相關聯的控制編號（1 ~ 100）。</dd>
+				<dt>Picture: Image（圖片文件）</dt>
+				<dd>指定要顯示的圖片。</dd>
 				<dt>Position（位置）</dt>
-				<dd>指定图片的显示位置。首先，你要规定图片的[Origin Point（原点）]，它可以为屏幕的[Upper Left（左上角）]或者[Center（中心）]。然后，指定你要显示的坐标，(0, 0)为原点的坐标。当使用[Direct designation（直接指定）]时，你需要输入表示水平位置的 X 坐标和表示垂直位置的 Y 坐标（范围为 -9999 ~ 9999）。如果想使用变量指定坐标，请选择[Designation with variables（使用变量指定）]，然后指定用于表示 X 坐标和 Y 坐标的变量。</dd>
+				<dd>指定圖片的顯示位置。首先，你要規定圖片的[Origin Point（原點）]，它可以為屏幕的[Upper Left（左上角）]或者[Center（中心）]。然後，指定你要顯示的坐標，(0, 0)為原點的坐標。當使用[Direct designation（直接指定）]時，你需要輸入表示水平位置的 X 坐標和表示垂直位置的 Y 坐標（範圍為 -9999 ~ 9999）。如果想使用變量指定坐標，請選擇[Designation with variables（使用變量指定）]，然後指定用於表示 X 坐標和 Y 坐標的變量。</dd>
 				<dt>Scale（尺度）</dt>
-				<dd>使用[Width（宽度）]和[Height（高度）]设置区域来指定图片的缩放百分比（0 ~ 2000%，100% 为原始大小）。</dd>
+				<dd>使用[Width（寬度）]和[Height（高度）]設置區域來指定圖片的縮放百分比（0 ~ 2000%，100% 為原始大小）。</dd>
 				<dt id="renew01">Blend（混合模式）</dt>
-				<dd>在[Opacity（不透明度）]区域指定图片的不透明度（0 ~ 255）。数值越小图片越透明（设置为 0 则不可见）。在[Blending Mode（混合模式）]区域指定更改图片不透明度时颜色的混合模式。
+				<dd>在[Opacity（不透明度）]區域指定圖片的不透明度（0 ~ 255）。數值越小圖片越透明（設置為 0 則不可見）。在[Blending Mode（混合模式）]區域指定更改圖片不透明度時顏色的混合模式。
 					<ul class="main__ul">
-						<li>[Normal（普通）] ・・・ 正常显示。</li>
-						<li>[Additive（加法）] ・・・ 以更白的颜色显示。</li>
-						<li>[Multiply（正片叠底）] ・・・ 以更暗的颜色显示。</li>
-						<li>[Screen（滤色）] ・・・ 以更亮的颜色显示。<br /><span class="red">（2016.03.01 更新）</span></li>
+						<li>[Normal（普通）] ・・・ 正常顯示。</li>
+						<li>[Additive（加法）] ・・・ 以更白的顏色顯示。</li>
+						<li>[Multiply（正片疊底）] ・・・ 以更暗的顏色顯示。</li>
+						<li>[Screen（濾色）] ・・・ 以更亮的顏色顯示。<br /><span class="red">（2016.03.01 更新）</span></li>
 					</ul>
 				</dd>
 			</dl>
-			<h3 class="main__title--h3--sub">注记 </h3>
+			<h3 class="main__title--h3--sub">注記 </h3>
 			<ul class="main__ul">
-			  <li>最多可以同时显示 100 张图片。控制编号越大，图片的优先级越高，显示的时候越靠前。</li>
-			  <li>如果多个图片使用同一个控制编号，那么最后设定的图片会显示出来（之前的图片会被清除）。</li>
+			  <li>最多可以同時顯示 100 張圖片。控制編號越大，圖片的優先級越高，顯示的時候越靠前。</li>
+			  <li>如果多個圖片使用同一個控制編號，那麼最後設定的圖片會顯示出來（之前的圖片會被清除）。</li>
 			</ul>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p02">
-		  <h2 class="main__title--h2">Move Picture（移动图片）</h2>
+		  <h2 class="main__title--h2">Move Picture（移動圖片）</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_08_img02.png" height="515" width="452" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>移动当前显示的图片。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>移動當前顯示的圖片。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-				<dt>Picture: Number（图片编号）</dt>
-				<dd>指定目标图片相关联的控制编号（1 ~ 100）。</dd>
+				<dt>Picture: Number（圖片編號）</dt>
+				<dd>指定目標圖片相關聯的控制編號（1 ~ 100）。</dd>
 				<dt>Position（位置）</dt>
-				<dd>指定图片移动后的位置。首先首先，你要规定图片的[Origin Point（原点）]，它可以为屏幕的[Upper Left（左上角）]或者[Center（中心）]。然后，指定你要显示的坐标，(0, 0)为原点的坐标。当使用[Direct designation（直接指定）]时，你需要输入表示水平位置的 X 坐标和表示垂直位置的 Y 坐标（范围为 -9999 ~ 9999）。如果想使用变量指定坐标，请选择[Designation with variables（使用变量指定）]，然后指定用于表示 X 坐标和 Y 坐标的变量。</dd>
+				<dd>指定圖片移動後的位置。首先首先，你要規定圖片的[Origin Point（原點）]，它可以為屏幕的[Upper Left（左上角）]或者[Center（中心）]。然後，指定你要顯示的坐標，(0, 0)為原點的坐標。當使用[Direct designation（直接指定）]時，你需要輸入表示水平位置的 X 坐標和表示垂直位置的 Y 坐標（範圍為 -9999 ~ 9999）。如果想使用變量指定坐標，請選擇[Designation with variables（使用變量指定）]，然後指定用於表示 X 坐標和 Y 坐標的變量。</dd>
 				<dt>Scale（尺度）</dt>
-				<dd>指定移动后图片的[Width（宽度）]和[Height（高度）]的缩放尺度（0 ~ 2000%）。</dd>
+				<dd>指定移動後圖片的[Width（寬度）]和[Height（高度）]的縮放尺度（0 ~ 2000%）。</dd>
 				<dt>Blend</dt>
-				<dd id="renew02">在[Opacity（不透明度）]区域指定图片移动后的不透明度（0 ~ 255）。数值越小图片越透明（设置为 0 则不可见）。在[Blending Mode（混合模式）]区域指定更改图片不透明度时颜色的混合模式。
+				<dd id="renew02">在[Opacity（不透明度）]區域指定圖片移動後的不透明度（0 ~ 255）。數值越小圖片越透明（設置為 0 則不可見）。在[Blending Mode（混合模式）]區域指定更改圖片不透明度時顏色的混合模式。
 					<ul class="main__ul">
-						<li>[Normal（普通）] ・・・ 正常显示。</li>
-						<li>[Additive（加法）] ・・・ 以更白的颜色显示。</li>
-						<li>[Multiply（正片叠底）] ・・・ 以更暗的颜色显示。</li>
-						<li>[Screen（滤色）] ・・・ 以更亮的颜色显示。<br /><span class="red">（2016.03.01 更新）</span></li>
+						<li>[Normal（普通）] ・・・ 正常顯示。</li>
+						<li>[Additive（加法）] ・・・ 以更白的顏色顯示。</li>
+						<li>[Multiply（正片疊底）] ・・・ 以更暗的顏色顯示。</li>
+						<li>[Screen（濾色）] ・・・ 以更亮的顏色顯示。<br /><span class="red">（2016.03.01 更新）</span></li>
 					</ul>
 				</dd>
-				<dt>Time（时间）</dt>
-				<dd>指定移动图片所用的时间，以帧为单位（1 ~ 999）。1 帧等于 1/60 秒。</dd>
-				<dt>Wait for Completion（等待移动结束）</dt>
-				<dd>启用时，事件处理过程会等到移动结束才继续进行。</dd>
+				<dt>Time（時間）</dt>
+				<dd>指定移動圖片所用的時間，以幀為單位（1 ~ 999）。1 幀等於 1/60 秒。</dd>
+				<dt>Wait for Completion（等待移動結束）</dt>
+				<dd>啟用時，事件處理過程會等到移動結束才繼續進行。</dd>
 			</dl>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p03">
-		  <h2 class="main__title--h2">Rotate Picture（旋转图片）</h2>
+		  <h2 class="main__title--h2">Rotate Picture（旋轉圖片）</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_08_img03.png" height="168" width="242" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>旋转所显示的图片。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>旋轉所顯示的圖片。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-				<dt>Picture: Number（图片编号）</dt>
-				<dd>指定目标图片相关联的控制编号（1 ~ 100）。</dd>
-				<dt>Rotation: Speed（旋转速度）</dt>
-				<dd>指定图片旋转的速度（-90 ~ 90）。如果数字为正，则图片为逆时针旋转，数字为负则图片为顺时针旋转。设置为 0 则图片停止旋转。</dd>
+				<dt>Picture: Number（圖片編號）</dt>
+				<dd>指定目標圖片相關聯的控制編號（1 ~ 100）。</dd>
+				<dt>Rotation: Speed（旋轉速度）</dt>
+				<dd>指定圖片旋轉的速度（-90 ~ 90）。如果數字為正，則圖片為逆時針旋轉，數字為負則圖片為順時針旋轉。設置為 0 則圖片停止旋轉。</dd>
 			</dl>
-			<h3 class="main__title--h3--sub">注记</h3>
+			<h3 class="main__title--h3--sub">注記</h3>
 			<ul class="main__ul">
-			  <li>旋转的轴（中心点）是图片上一次显示/移动时的原点。</li>
+			  <li>旋轉的軸（中心點）是圖片上一次顯示/移動時的原點。</li>
 		  </ul>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p04">
-		  <h2 class="main__title--h2">Tint Picture（图片变色）</h2>
+		  <h2 class="main__title--h2">Tint Picture（圖片變色）</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_08_img04.png" height="442" width="472" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>更改显示图片的色调。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>更改顯示圖片的色調。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-				<dt>Picture: Number（图片编号）</dt>
-				<dd>指定目标图片相关联的控制编号（1 ~ 100）。</dd>
-				<dt>Color Tone（色调）</dt>
-				<dd>指定添加的[Red（红）]，[Green（绿）] 和 [Blue（蓝）]颜色数值（0 ~ 255）。使用[Gray（灰）]值来设置灰度的强度。数值越高则全局色调越强。你可以使用右侧的预览窗口来查看使用的色调。</dd>
-				<dt>Time（时间）</dt>
-				<dd>指定图片变色所用的时间，以帧为单位（1 ~ 999）。1 帧等于 1/60 秒。</dd>
-				<dt>Wait for Completion（等待变色结束）</dt>
-				<dd>启用时，事件处理过程会等到变色结束才继续进行。</dd>
+				<dt>Picture: Number（圖片編號）</dt>
+				<dd>指定目標圖片相關聯的控制編號（1 ~ 100）。</dd>
+				<dt>Color Tone（色調）</dt>
+				<dd>指定添加的[Red（紅）]，[Green（綠）] 和 [Blue（藍）]顏色數值（0 ~ 255）。使用[Gray（灰）]值來設置灰度的強度。數值越高則全局色調越強。你可以使用右側的預覽窗口來查看使用的色調。</dd>
+				<dt>Time（時間）</dt>
+				<dd>指定圖片變色所用的時間，以幀為單位（1 ~ 999）。1 幀等於 1/60 秒。</dd>
+				<dt>Wait for Completion（等待變色結束）</dt>
+				<dd>啟用時，事件處理過程會等到變色結束才繼續進行。</dd>
 			</dl>
-			<h3 class="main__title--h3--sub">注记 </h3>
+			<h3 class="main__title--h3--sub">注記 </h3>
 			<ul class="main__ul">
-			  <li>更改后的色调将一直有效，直到再次执行此命令为止。</li>
+			  <li>更改後的色調將一直有效，直到再次執行此命令為止。</li>
 		  </ul>
 		</div><!-- /main__section -->
 
 		<div class="main__section" id="p05">
-		  <h2 class="main__title--h2">Erase Picture（清除图片）</h2>
+		  <h2 class="main__title--h2">Erase Picture（清除圖片）</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_10_08_img05.png" height="168" width="220" alt="" />
 			</div>
 			<h3 class="main__title--h3--sub">功能</h3>
-			<p>清除显示的图片。</p>
-			<h3 class="main__title--h3--sub">设置</h3>
+			<p>清除顯示的圖片。</p>
+			<h3 class="main__title--h3--sub">設置</h3>
 			<dl class="main__dl--sub">
-				<dt>Picture: Number（图片编号）</dt>
-				<dd>指定要删除的图片的控制编号（1 ~ 100）。</dd>
+				<dt>Picture: Number（圖片編號）</dt>
+				<dd>指定要刪除的圖片的控制編號（1 ~ 100）。</dd>
 			</dl>
 		</div><!-- /main__section -->
 

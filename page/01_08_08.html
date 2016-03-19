@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>状态设置</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>狀態設置</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -10,73 +10,73 @@
 <body>
 
 	<div class="main">
-	  <h1 class="main__title--h1 main__title--h1--v03">状态设置</h1>
+	  <h1 class="main__title--h1 main__title--h1--v03">狀態設置</h1>
 	  <ul class="breadcrumb">
 	    <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
-		  <li><a href="01_08.html">数据库</a></li>
+		  <li><a href="01_08.html">數據庫</a></li>
 		  <li>&gt;</li>
-		  <li>状态设置</li>
+		  <li>狀態設置</li>
 		</ul>
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">数据的作用</h2>
-		  <p> 用于设置“中毒”和“混乱”之类的状态，这些不正常的状态会影响战斗者的行为和自身条件。设置时需要指定状态附加后所产生的特殊效果。你不但可以设置负面状态，例如[Poison（中毒）]，[HP decreased（HP 减少）]，还可以设置增益状态，例如[Enraged（激怒）]，[Attack Power Increased（攻击力增加）]。 <br />
+		  <h2 class="main__title--h2">數據的作用</h2>
+		  <p> 用於設置「中毒」和「混亂」之類的狀態，這些不正常的狀態會影響戰鬥者的行為和自身條件。設置時需要指定狀態附加後所產生的特殊效果。你不但可以設置負面狀態，例如[Poison（中毒）]，[HP decreased（HP 減少）]，還可以設置增益狀態，例如[Enraged（激怒）]，[Attack Power Increased（攻擊力增加）]。 <br />
 		    <br />
-		    此外，状态 #1 [Knockout（战斗不能）]为一个特殊状态，当角色和敌人的 HP 降至为 0 时会自动附加。如果主角队伍中的所有成员都附加了此状态，游戏就会结束。 </p>
+		    此外，狀態 #1 [Knockout（戰鬥不能）]為一個特殊狀態，當角色和敵人的 HP 降至為 0 時會自動附加。如果主角隊伍中的所有成員都附加了此狀態，遊戲就會結束。 </p>
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">参数详细信息</h2>
+		  <h2 class="main__title--h2">參數詳細信息</h2>
 		  <div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_08_08_img01.png" width="769" height="631" alt="" />
 			</div>
-		  <h3 class="main__title--h3"> 常规设置 </h3>
-		  <h3 class="main__title--h3--sub"> Name（名称） </h3>
-		  <p>状态的名称。由于在游戏中，状态以图标显示，因此状态的名称不会在游戏中用到。</p>
-		  <h3 class="main__title--h3--sub"> Icon（图标） </h3>
-		  <p>当战斗者处于此状态时，状态图标会显示在角色名字的旁边或者是敌人的上方。双击状态图标的图像后，你可以在打开的[Select an Image（选择图像）]窗口中选取状态图标。选择的图标应该尽可能清楚地表示该状态的细节。</p>
+		  <h3 class="main__title--h3"> 常規設置 </h3>
+		  <h3 class="main__title--h3--sub"> Name（名稱） </h3>
+		  <p>狀態的名稱。由於在遊戲中，狀態以圖標顯示，因此狀態的名稱不會在遊戲中用到。</p>
+		  <h3 class="main__title--h3--sub"> Icon（圖標） </h3>
+		  <p>當戰鬥者處於此狀態時，狀態圖標會顯示在角色名字的旁邊或者是敵人的上方。雙擊狀態圖標的圖像後，你可以在打開的[Select an Image（選擇圖像）]窗口中選取狀態圖標。選擇的圖標應該盡可能清楚地表示該狀態的細節。</p>
 		  <h3 class="main__title--h3--sub"> Restriction（限制） </h3>
-		  <p>限制处于此状态中的战斗者的行为。限制的详细信息要在下面的 5 个项目中进行设置。如果一个状态设置了多重限制，那么处于限制列表下方的限制将会被优先考虑。</p>
+		  <p>限制處於此狀態中的戰鬥者的行為。限制的詳細信息要在下面的 5 個項目中進行設置。如果一個狀態設置了多重限制，那麼處於限制列表下方的限制將會被優先考慮。</p>
 		  <dl class="main__dl--sub">
-			<dt>None（无） </dt>
-				<dd>行动不会受限制。</dd>
-				<dt>Attack an Enemy（普通攻击敌人）</dt>
-				<dd>必定攻击敌人。</dd>
-				<dt>Attack Anyone（普通攻击任何人） </dt>
-				<dd>必定攻击敌人或同伴。</dd>
-				<dt>Attack an Ally（普通攻击同伴） </dt>
-				<dd>必定攻击同伴。</dd>
-				<dt>Cannot Move（不行动） </dt>
-				<dd>不能做任何行动。</dd>
+			<dt>None（無） </dt>
+				<dd>行動不會受限制。</dd>
+				<dt>Attack an Enemy（普通攻擊敵人）</dt>
+				<dd>必定攻擊敵人。</dd>
+				<dt>Attack Anyone（普通攻擊任何人） </dt>
+				<dd>必定攻擊敵人或同伴。</dd>
+				<dt>Attack an Ally（普通攻擊同伴） </dt>
+				<dd>必定攻擊同伴。</dd>
+				<dt>Cannot Move（不行動） </dt>
+				<dd>不能做任何行動。</dd>
 			</dl>
-		  <h3 class="main__title--h3--sub"> Priority（优先级） </h3>
-		  <p>显示状态图标的优先级，范围为（0 ~ 100）。如果战斗者持有多重状态，具有最高优先级的状态图标才会被显示。如果优先级相同，那么 ID 较小的状态图标会被优先显示。 </p>
-		  <h3 class="main__title--h3--sub"> [SV] Motion（[SV]动作） </h3>
-		  <p>在横版战斗中，设置状态被附加时显示的动作。</p>
-		  <h3 class="main__title--h3--sub"> [SV] Overlay（[SV]重叠） </h3>
-		  <p>在横版战斗中，设置状态被附加时显示的重叠图像。</p>
-		  <h3 class="main__title--h3"> Removal Conditions（解除条件） </h3>
-		  <p>状态被解除的条件。条件需要在下面的项目中进行指定。如果指定了多重解除条件，那么只要有一个条件达到要求，状态就会被解除。</p>
+		  <h3 class="main__title--h3--sub"> Priority（優先級） </h3>
+		  <p>顯示狀態圖標的優先級，範圍為（0 ~ 100）。如果戰鬥者持有多重狀態，具有最高優先級的狀態圖標才會被顯示。如果優先級相同，那麼 ID 較小的狀態圖標會被優先顯示。 </p>
+		  <h3 class="main__title--h3--sub"> [SV] Motion（[SV]動作） </h3>
+		  <p>在橫版戰鬥中，設置狀態被附加時顯示的動作。</p>
+		  <h3 class="main__title--h3--sub"> [SV] Overlay（[SV]重疊） </h3>
+		  <p>在橫版戰鬥中，設置狀態被附加時顯示的重疊圖像。</p>
+		  <h3 class="main__title--h3"> Removal Conditions（解除條件） </h3>
+		  <p>狀態被解除的條件。條件需要在下面的項目中進行指定。如果指定了多重解除條件，那麼只要有一個條件達到要求，狀態就會被解除。</p>
 		  <dl class="main__dl">
-			<dt>Remove at Battle End（战斗结束时解除） </dt>
-				<dd>启用时，战斗结束时自动解除该状态。</dd>
+			<dt>Remove at Battle End（戰鬥結束時解除） </dt>
+				<dd>啟用時，戰鬥結束時自動解除該狀態。</dd>
 				<dt>Remove by Restriction（由限制解除） </dt>
-				<dd>启用时，当另一有独立限制的状态被附加时，该状态会被自动解除。</dd>
-				<dt>Auto-removal Timing/Duration in Turns（自动解除时机/持续的回合数） </dt>
-				<dd>在回合后解除。使用[Action End（行动结束）]时，状态会在战斗者完成他的行动后解除。使用[Turn End（回合结束）]时，状态会在本回合结束，下一回合的命令选择开始之前解除。使用[Duration in Turns（持续的回合数）]时，需要指定状态被解除回合的下界和上界（0 ~ 9999）。</dd>
-				<dt>Remove by Damage（受到伤害解除） </dt>
-				<dd>当受到任何种类的伤害时，状态会以一定几率（0 ~ 100%）解除。</dd>
-				<dt>Remove by Walking（行走时解除） </dt>
-				<dd>当角色在地图上走了指定步数（0 ~ 9999）时，状态自动被解除。</dd>
+				<dd>啟用時，當另一有獨立限制的狀態被附加時，該狀態會被自動解除。</dd>
+				<dt>Auto-removal Timing/Duration in Turns（自動解除時機/持續的回合數） </dt>
+				<dd>在回合後解除。使用[Action End（行動結束）]時，狀態會在戰鬥者完成他的行動後解除。使用[Turn End（回合結束）]時，狀態會在本回合結束，下一回合的命令選擇開始之前解除。使用[Duration in Turns（持續的回合數）]時，需要指定狀態被解除回合的下界和上界（0 ~ 9999）。</dd>
+				<dt>Remove by Damage（受到傷害解除） </dt>
+				<dd>當受到任何種類的傷害時，狀態會以一定幾率（0 ~ 100%）解除。</dd>
+				<dt>Remove by Walking（行走時解除） </dt>
+				<dd>當角色在地圖上走了指定步數（0 ~ 9999）時，狀態自動被解除。</dd>
 			</dl>
 		  <h3 class="main__title--h3"> Message（消息） </h3>
-		  <p>战斗中，状态被附加或移除时显示的消息。在下面 4 种情况下，消息会以“目标名称+消息内容”的方式出现：“主角被附加此项状态”，“敌人被附加此项状态”，“状态持续中”，和 “状态被解除”。</p>
+		  <p>戰鬥中，狀態被附加或移除時顯示的消息。在下面 4 種情況下，消息會以「目標名稱+消息內容」的方式出現：「主角被附加此項狀態」，「敵人被附加此項狀態」，「狀態持續中」，和 「狀態被解除」。</p>
 		  <h3 class="main__title--h3"> Traits（特性） </h3>
-		  <p>附加此状态是，给予目标的特性。详情请参考[<a href="01_08_15.html">如何设置特性</a>]。</p>
-		  <h3 class="main__title--h3" id="renew01"> Note（备注） </h3>
-				<p>在制作游戏过程中，[Note（备注）]部分可以用来做备注。<br />
-					右键点击可以打开菜单，在其中选择[Plugin Help...（插件帮助）]来显示插件帮助。<br />
+		  <p>附加此狀態是，給予目標的特性。詳情請參考[<a href="01_08_15.html">如何設置特性</a>]。</p>
+		  <h3 class="main__title--h3" id="renew01"> Note（備註） </h3>
+				<p>在製作遊戲過程中，[Note（備註）]部分可以用來做備註。<br />
+					右鍵點擊可以打開菜單，在其中選擇[Plugin Help...（插件幫助）]來顯示插件幫助。<br />
 					<span class="red">（2016.03.01 更新）</span>
 				</p>
 		</div><!-- /main__section -->

@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="main">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>职业设置</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>職業設置</title>
 	<link rel="stylesheet" href="../inc/css/style.min.css" />
 	<script type="text/javascript" src="../inc/js/lib/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="../inc/js/common.js"></script>
@@ -11,96 +11,96 @@
 
 	<div class="main">
 
-		<h1 class="main__title--h1 main__title--h1--v03">职业设置</h1>
+		<h1 class="main__title--h1 main__title--h1--v03">職業設置</h1>
 		<ul class="breadcrumb">
 		  <li><a href="01.html">RPG Maker MV</a></li>
 		  <li>&gt;</li>
-		  <li><a href="01_08.html">数据库</a></li>
+		  <li><a href="01_08.html">數據庫</a></li>
 		  <li>&gt;</li>
-		  <li>职业设置</li>
+		  <li>職業設置</li>
 		</ul>
 
 		<div class="main__section">
-		  <h2 class="main__title--h2">数据的作用</h2>
-		  <p> 职业数据是有关角色能力特性的集合。你必须为每一个角色指定一个职业，然后通过改变各项参数来调节角色升级的方式，能力值的增长方式，升级所学会的技能等。你还可以为角色赋予职业特性。</p>
+		  <h2 class="main__title--h2">數據的作用</h2>
+		  <p> 職業數據是有關角色能力特性的集合。你必須為每一個角色指定一個職業，然後通過改變各項參數來調節角色升級的方式，能力值的增長方式，升級所學會的技能等。你還可以為角色賦予職業特性。</p>
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-			<h2 class="main__title--h2">参数</h2>
+			<h2 class="main__title--h2">參數</h2>
 			<div class="al-c mt20px mb20px">
 				<img src="../inc/img/01_08_02_img01.png" width="769" height="631" alt="" />
 			</div>
 
 			<dl class="main--dl">
 				<h3 class="main__title--h3--sub">
-					Name（名称）
+					Name（名稱）
 				</h3>
-				<p>职业的名称。它会被显示在菜单画面和状态画面的上半部分。</p>
+				<p>職業的名稱。它會被顯示在菜單畫面和狀態畫面的上半部分。</p>
 
-				<h3 class="main__title--h3--sub">EXP Curve（经验曲线）</h3>
-				<p>决定升级所需 EXP 的参数。当角色的经验达到升级所需经验时，角色的等级会提升 1 级，并且会获得技能点，学会新的技能。<br />
+				<h3 class="main__title--h3--sub">EXP Curve（經驗曲線）</h3>
+				<p>決定升級所需 EXP 的參數。當角色的經驗達到升級所需經驗時，角色的等級會提升 1 級，並且會獲得技能點，學會新的技能。<br />
 					<br />
-					升级所需 EXP 由下面 4 个数值所决定。当你在设置区域点击[...]按钮时，会出现这四个数值的设置窗口。升级所需 EXP 会显示在一个列表当中，相应的图标也会作为[To Next Level（下一级所需经验）]标签的背景出现。当设置 EXP 参数时，参考此图表是个不错的做法。升级到下一级的累计 EXP 可以在[Total（总计）]标签里找到。
+					升級所需 EXP 由下面 4 個數值所決定。當你在設置區域點擊[...]按鈕時，會出現這四個數值的設置窗口。升級所需 EXP 會顯示在一個列表當中，相應的圖標也會作為[To Next Level（下一級所需經驗）]標籤的背景出現。當設置 EXP 參數時，參考此圖表是個不錯的做法。升級到下一級的累計 EXP 可以在[Total（總計）]標籤裡找到。
 				</p>
 				<div class="al-c mb20px">
 					<img src="../inc/img/01_08_02_img02.png" width="582" height="551" alt="" />
 				</div>
 				<dl class="main__dl--sub">
-					<dt>Base Value（基础值） </dt>
-					<dd>计算所需 EXP 的基本值。降低此数值时，全局的所需 EXP 数值都会减少。</dd>
-					<dt>Extra Value（额外增加值） </dt>
-					<dd>指定每提升 1 级所需 EXP 的额外增加值。</dd>
+					<dt>Base Value（基礎值） </dt>
+					<dd>計算所需 EXP 的基本值。降低此數值時，全局的所需 EXP 數值都會減少。</dd>
+					<dt>Extra Value（額外增加值） </dt>
+					<dd>指定每提升 1 級所需 EXP 的額外增加值。</dd>
 					<dt>Acceleration A（加速度 A） </dt>
-					<dd>调节所需 EXP 增长的速度。增加此值时，每一级升级所需 EXP 会成比例增长。</dd>
+					<dd>調節所需 EXP 增長的速度。增加此值時，每一級升級所需 EXP 會成比例增長。</dd>
 					<dt>Acceleration B（加速度 B）</dt>
-					<dd>调节所需 EXP 增长的速度。增加此值时，高等级时升级所需 EXP 的增长速率会变大。</dd>
+					<dd>調節所需 EXP 增長的速度。增加此值時，高等級時升級所需 EXP 的增長速率會變大。</dd>
 				</dl>
 
 				<h3 class="main__title--h3--sub">
-					Parameter Curves（参数曲线）
+					Parameter Curves（參數曲線）
 				</h3>
-				<p> 每一级所对应属性值的详细参数。当你双击图表时，参数设置窗口就会打开。如何设置参数请参考后面提到的[<a href="#p01">设置参数曲线</a>]。</p>
+				<p> 每一級所對應屬性值的詳細參數。當你雙擊圖表時，參數設置窗口就會打開。如何設置參數請參考後面提到的[<a href="#p01">設置參數曲線</a>]。</p>
 
 				<h3 class="main__title--h3--sub">
 					Skills（技能）
 				</h3>
-				<p> 角色升级时自动学会的技能。设置的方法为在窗口中双击一列数据，然后设置等级和学会的技能。</p>
+				<p> 角色升級時自動學會的技能。設置的方法為在窗口中雙擊一列數據，然後設置等級和學會的技能。</p>
 
 				<h3 class="main__title--h3--sub">
 					Traits（特性）
 				</h3>
-				<p> 属于这个职业的角色的特性。详情请参考[<a href="01_08_15.html">如何设置特性</a>]。</p>
+				<p> 屬於這個職業的角色的特性。詳情請參考[<a href="01_08_15.html">如何設置特性</a>]。</p>
 
 				<h3 class="main__title--h3--sub" id="renew01">
-					Note（备注）
+					Note（備註）
 				</h3>
-				<p>在制作游戏过程中，[Note（备注）]部分可以用来做备注。<br />
-					右键点击可以打开菜单，在其中选择[Plugin Help...（插件帮助）]来显示插件帮助。<br />
+				<p>在製作遊戲過程中，[Note（備註）]部分可以用來做備註。<br />
+					右鍵點擊可以打開菜單，在其中選擇[Plugin Help...（插件幫助）]來顯示插件幫助。<br />
 					<span class="red">（2016.03.01 更新）</span>
 				</p>
 		</div><!-- /main__section -->
 
 		<div class="main__section">
-			<h2 class="main__title--h2" id="p01"> 设置参数曲线
+			<h2 class="main__title--h2" id="p01"> 設置參數曲線
 </h2>
-			<p>在[Parameter Curves（参数曲线）]窗口当中，每个等级的参数值可以基于以下的方法进行设定。要切换要编辑的参数，直接点击带有该参数名称的标签即可。当你完成编辑后，点击[OK]，你设置的数值就会被保存（当按下[Cancel（取消）]键时会放弃本次更改）。</p>
+			<p>在[Parameter Curves（參數曲線）]窗口當中，每個等級的參數值可以基於以下的方法進行設定。要切換要編輯的參數，直接點擊帶有該參數名稱的標籤即可。當你完成編輯後，點擊[OK]，你設置的數值就會被保存（當按下[Cancel（取消）]鍵時會放棄本次更改）。</p>
 		  <div class="al-c mb20px">
 				<img src="../inc/img/01_08_02_img03.png" width="632" height="489" alt="" />
 			</div>
 
 			<dl class="main__dl">
-				<dt>Quick Settings（快速设置）</dt>
-				<dd>此功能会将各个等级的参数值设置为软件事先指定的数值。总共有 5 个级别，分别为 [A] ~ [E]，点击对应的按钮之后该级别的数据就会被自动设置。</dd>
-				<dt>Level/Value（等级/数值） </dt>
-				<dd>直接为每个等级编辑参数。操作方法为先在[Level（等级）]输入框指定你要设置的等级（1 ~ 99），然后在[Value（数值）]输入框指定当前等级对应的参数（最大 HP 和 最大 MP 的范围为 1 ~ 9999，其他参数为 1 ~ 999）。</dd>
-				<dt>Generate Curve（生成曲线） </dt>
-				<dd>可以由 1 级和 99 级的数据自动计算所有等级所对应的参数值。<br />
+				<dt>Quick Settings（快速設置）</dt>
+				<dd>此功能會將各個等級的參數值設置為軟件事先指定的數值。總共有 5 個級別，分別為 [A] ~ [E]，點擊對應的按鈕之後該級別的數據就會被自動設置。</dd>
+				<dt>Level/Value（等級/數值） </dt>
+				<dd>直接為每個等級編輯參數。操作方法為先在[Level（等級）]輸入框指定你要設置的等級（1 ~ 99），然後在[Value（數值）]輸入框指定當前等級對應的參數（最大 HP 和 最大 MP 的範圍為 1 ~ 9999，其他參數為 1 ~ 999）。</dd>
+				<dt>Generate Curve（生成曲線） </dt>
+				<dd>可以由 1 級和 99 級的數據自動計算所有等級所對應的參數值。<br />
                   <br />
-点击[Generate Curve（生成曲线）]后，首先在显示的窗口中定义[1 级]和[99 级]的数值（最大 HP 和 最大 MP 的范围为 1 ~ 9999，其他参数为 1 ~ 999）。 <br />
+點擊[Generate Curve（生成曲線）]後，首先在顯示的窗口中定義[1 級]和[99 級]的數值（最大 HP 和 最大 MP 的範圍為 1 ~ 9999，其他參數為 1 ~ 999）。 <br />
 <br />
-然后，利用滑块决定增长类型。当滑块偏左（早熟）时，增长的速率（参数增长的数量）会随着级别的升高而减慢，当滑块偏右（晚熟）时，增长的速率会随着级别的升高而加快。点击[OK]后，参数会按照你指定的内容进行设置。</dd>
-				<dt>Graph（图表）</dt>
-				<dd>每个等级的参数值会显示在一个条形图中。直接在图表的显示区域上点击或拖动鼠标，你就可以设置对应等级的参数值。</dd>
+然後，利用滑塊決定增長類型。當滑塊偏左（早熟）時，增長的速率（參數增長的數量）會隨著級別的升高而減慢，當滑塊偏右（晚熟）時，增長的速率會隨著級別的升高而加快。點擊[OK]後，參數會按照你指定的內容進行設置。</dd>
+				<dt>Graph（圖表）</dt>
+				<dd>每個等級的參數值會顯示在一個條形圖中。直接在圖表的顯示區域上點擊或拖動鼠標，你就可以設置對應等級的參數值。</dd>
 			</dl>
 
 		</div><!-- /main__section -->
